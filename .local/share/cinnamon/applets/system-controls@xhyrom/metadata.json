@@ -1,7 +1,0 @@
-{
-    "description": "Fork of rcalixte's System Controls, uses loginctl instead systemctl",
-    "uuid": "system-controls@xhyrom",
-    "name": "System Controls Applet powered by loginctl",
-    "version": "1.0.0",
-    "max-instances": -1
-}
