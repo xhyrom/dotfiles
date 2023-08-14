@@ -1,0 +1,66 @@
+{
+    "apearance": {
+        "type": "header",
+        "description": "Appearance and behavior"
+    },
+    "panelIcon": {
+        "type": "iconfilechooser",
+        "description": "Panel Icon",
+        "default": "go-next",
+        "tooltip": "Supports both icon name and icon path.\nTo use a symbolic icon, include '-symbolic' (or '-symbolic.svg') at the end.",
+        "value": "pop-cosmic-launcher"
+    },
+    "tooltipText": {
+        "type": "entry",
+        "description": "Tooltip",
+        "default": "",
+        "value": ""
+    },
+    "keyLaunch": {
+        "type": "keybinding",
+        "description": "Keyboard shortcut",
+        "default": "",
+        "value": ""
+    },
+    "showNotifications": {
+        "type": "checkbox",
+        "description": "Show notifications on completion",
+        "default": false,
+        "value": false
+    },
+    "sep1": {
+        "type": "separator"
+    },
+    "commandTitle": {
+        "type": "header",
+        "description": "Command settings"
+    },
+    "command": {
+        "type": "entry",
+        "description": "Command",
+        "default": "",
+        "value": "rofi -show drun"
+    },
+    "useRoot": {
+        "type": "checkbox",
+        "description": "Run as root",
+        "default": false,
+        "value": false
+    },
+    "useAltEnv": {
+        "type": "checkbox",
+        "description": "Run in alternate directory",
+        "default": false,
+        "value": false
+    },
+    "altEnv": {
+        "type": "filechooser",
+        "description": "Environment path",
+        "default": "/",
+        "select-dir": true,
+        "indent": true,
+        "dependency": "useAltEnv",
+        "value": "/"
+    },
+    "__md5__": "79c299413041467ad03f5556895d2f3c"
+}
