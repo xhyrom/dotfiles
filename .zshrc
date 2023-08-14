@@ -100,3 +100,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat="bat" # use bat - https://github.com/sharkdp/bat
+alias ssh="kitty +kitten ssh"
