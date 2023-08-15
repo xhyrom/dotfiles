@@ -1,0 +1,8 @@
+#!/bin/bash
+# +x [file]
+# make a file executable
+if [ -z "$1" ]; then
+  echo "usage: +x [file]"
+  exit 1
+fi
+chmod +x $@

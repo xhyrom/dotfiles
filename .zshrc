@@ -101,3 +101,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat="bat" # use bat - https://github.com/sharkdp/bat
 alias ssh="kitty +kitten ssh"
+
+function pacman {
+	if [[ $1 == "ru" ]]; then
+		command pacman -Qtdq | sudo pacman -Rns -
+	else
+		command pacman "$@"
+	fi
+}
