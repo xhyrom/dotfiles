@@ -21,7 +21,6 @@ vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
-vim.opt.isframe:append "@-@"
 
 vim.opt.updatetime = 50
 
