@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat="bat" # use bat - https://github.com/sharkdp/bat
 alias ssh="kitty +kitten ssh"
+alias vim="nvim"
 
 function pacman {
 	if [[ $1 == "ru" ]]; then
