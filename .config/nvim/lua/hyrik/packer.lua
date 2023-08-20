@@ -25,6 +25,7 @@ return require("packer").startup(function(use)
   use "mbbill/undotree"
   use "tpope/vim-fugitive"
   use "andweeb/presence.nvim"
+  use "wakatime/vim-wakatime"
 
   use {
 	  "VonHeikemen/lsp-zero.nvim",
