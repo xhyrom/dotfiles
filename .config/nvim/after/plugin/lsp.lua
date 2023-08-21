@@ -10,14 +10,6 @@ lsp.ensure_installed({
   "rust_analyzer",
 })
 
-require("lspconfig").zls.setup {
-  settings = {
-    zls = {
-      enable_inlay_hints = false
-    }
-  }
-}
-
 -- Fix Undefined global "vim"
 lsp.nvim_workspace()
 
