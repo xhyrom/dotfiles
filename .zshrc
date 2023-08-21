@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias cat="bat" # use bat - https://github.com/sharkdp/bat
 alias ssh="kitty +kitten ssh"
 alias vim="nvim"
-alias zig="zigd" # dont't want to write zigd everytime
+alias zig="zigd" # dont't want to type zigd everytime
 
 function pacman {
 	if [[ $1 == "ru" ]]; then
