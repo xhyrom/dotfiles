@@ -218,7 +218,8 @@
             "enabled": false,
             "volume": 0.5,
             "triggerWhenUnfocused": true,
-            "ignoreBots": true
+            "ignoreBots": true,
+            "ignoreBlocked": true
         },
         "MuteNewGuild": {
             "enabled": false
@@ -285,7 +286,7 @@
             "enabled": false
         },
         "QuickReply": {
-            "enabled": false
+            "enabled": true
         },
         "ReadAllNotificationsButton": {
             "enabled": false
@@ -464,7 +465,12 @@
             "enabled": false
         },
         "ReviewDB": {
-            "enabled": false
+            "enabled": true,
+            "notifyReviews": true,
+            "showWarning": true,
+            "hideTimestamps": false,
+            "hideBlockedUsers": true,
+            "token": "rdb.7vVqzwfVUDsiBQv5wD5/Qh5MG9u9J1JRdqaHeCmtwKf4HwlADYZXXx8BHcJ9SQ5Yfl7logO172onHD9wprweZQ"
         },
         "SendTimestamps": {
             "enabled": true
@@ -481,7 +487,7 @@
             "voiceBackground": true
         },
         "ShowConnections": {
-            "enabled": false
+            "enabled": true
         },
         "TextReplace": {
             "enabled": false
@@ -499,10 +505,10 @@
             "enabled": false
         },
         "FavoriteEmojiFirst": {
-            "enabled": false
+            "enabled": true
         },
         "PermissionsViewer": {
-            "enabled": false
+            "enabled": true
         },
         "Party mode 🎉": {
             "enabled": false
@@ -551,6 +557,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1692701599977
+        "settingsSyncVersion": 1692704396074
     }
 }
