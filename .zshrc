@@ -112,7 +112,7 @@ function pacman {
 }
 
 # zigd
-export ZIGD_HOME="/home/hyro/.local/share/zigd"
+export ZIGD_HOME="/home/hyro/.zigd/bin"
 export PATH="$ZIGD_HOME:$PATH"
 # zigd end
 
