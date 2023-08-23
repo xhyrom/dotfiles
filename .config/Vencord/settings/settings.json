@@ -447,7 +447,7 @@
             "saveZoomValues": true,
             "preventCarouselFromClosingOnClick": true,
             "invertScroll": true,
-            "zoom": 1,
+            "zoom": 2.005365853658537,
             "size": 100,
             "zoomSpeed": 0.27926829268292686,
             "nearestNeighbour": false,
@@ -470,7 +470,22 @@
             "showWarning": true,
             "hideTimestamps": false,
             "hideBlockedUsers": true,
-            "token": "rdb.7vVqzwfVUDsiBQv5wD5/Qh5MG9u9J1JRdqaHeCmtwKf4HwlADYZXXx8BHcJ9SQ5Yfl7logO172onHD9wprweZQ"
+            "token": "rdb.7vVqzwfVUDsiBQv5wD5/Qh5MG9u9J1JRdqaHeCmtwKf4HwlADYZXXx8BHcJ9SQ5Yfl7logO172onHD9wprweZQ",
+            "user": {
+                "ID": 12354,
+                "discordID": "525316393768452098",
+                "username": "xhyrom",
+                "profilePhoto": "https://cdn.discordapp.com/avatars/525316393768452098/c3a852b3f9b371f9140e42984cbc80e9.png?size=128",
+                "clientMods": [
+                    "vencord"
+                ],
+                "warningCount": 0,
+                "badges": [],
+                "banInfo": null,
+                "lastReviewID": 396589,
+                "type": 0
+            },
+            "reviewsDropdownState": true
         },
         "SendTimestamps": {
             "enabled": true
@@ -487,7 +502,9 @@
             "voiceBackground": true
         },
         "ShowConnections": {
-            "enabled": true
+            "enabled": true,
+            "iconSpacing": 1,
+            "iconSize": 32
         },
         "TextReplace": {
             "enabled": false
@@ -508,7 +525,9 @@
             "enabled": true
         },
         "PermissionsViewer": {
-            "enabled": true
+            "enabled": true,
+            "permissionsSortOrder": 0,
+            "defaultPermissionsDropdownState": false
         },
         "Party mode 🎉": {
             "enabled": false
@@ -557,6 +576,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1692704396074
+        "settingsSyncVersion": 1692787884974
     }
 }

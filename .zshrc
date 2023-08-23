@@ -120,3 +120,11 @@ export PATH="$ZIGD_HOME:$PATH"
 export PNPM_HOME="/home/hyro/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+# bun
+# completions
+[ -s "/home/hyro/.bun/_bun" ] && source "/home/hyro/.bun/_bun"
+
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+# bun end
