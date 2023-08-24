@@ -1,0 +1,11 @@
+#!/bin/bash
+# bp
+# creates folder in /tmp with bun init a.k.a bun playground
+
+BP_TEMP_PATH=$(mktemp -d --suffix=-bun.playground)
+
+cd $BP_TEMP_PATH
+bun init -y
+nvim .
+
+rm -rf $BP_TEMP_PATH

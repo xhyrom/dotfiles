@@ -115,7 +115,7 @@
             "enabled": true
         },
         "EmoteCloner": {
-            "enabled": false
+            "enabled": true
         },
         "Experiments": {
             "enabled": true,
@@ -317,7 +317,7 @@
         },
         "ServerListIndicators": {
             "enabled": true,
-            "mode": 2
+            "mode": 3
         },
         "Settings": {
             "enabled": true,
@@ -447,7 +447,7 @@
             "saveZoomValues": true,
             "preventCarouselFromClosingOnClick": true,
             "invertScroll": true,
-            "zoom": 2.005365853658537,
+            "zoom": 1,
             "size": 100,
             "zoomSpeed": 0.27926829268292686,
             "nearestNeighbour": false,
@@ -576,6 +576,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1692787884974
+        "settingsSyncVersion": 1692863549373
     }
 }
