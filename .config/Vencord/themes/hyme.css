@@ -20,3 +20,11 @@
 
 /** Discolored - colorful SVGs **/
 @import url(https://nyri4.github.io/Discolored/support/discolored.theme.css);
+
+/** Beautiful gradient for name (thanks luna :3 index.tsx 174200708818665472) **/
+:is([class*=contents-], [class*=memberInner]):has([src*="525316393768452098"]) [class*=username] {
+  background: -webkit-linear-gradient(90deg,#12edf9,#eae3b4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
