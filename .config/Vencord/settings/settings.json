@@ -564,6 +564,12 @@
         },
         "PreviewMessage": {
             "enabled": false
+        },
+        "CopyUserURLs": {
+            "enabled": false
+        },
+        "FixSpotifyEmbeds": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -576,6 +582,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1693031055057
+        "settingsSyncVersion": 1693138326625
     }
 }
