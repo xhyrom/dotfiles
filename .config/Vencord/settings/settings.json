@@ -55,7 +55,7 @@
             "enabled": true
         },
         "SettingsStoreAPI": {
-            "enabled": false
+            "enabled": true
         },
         "BANger": {
             "enabled": false
@@ -481,6 +481,7 @@
                 ],
                 "warningCount": 0,
                 "badges": [],
+                "notification": null,
                 "banInfo": null,
                 "lastReviewID": 396589,
                 "type": 0
@@ -570,6 +571,21 @@
         },
         "FixSpotifyEmbeds": {
             "enabled": false
+        },
+        "ServerProfile": {
+            "enabled": false
+        },
+        "ShowTimeouts": {
+            "enabled": false
+        },
+        "ThemeAttributes": {
+            "enabled": false
+        },
+        "PictureInPicture": {
+            "enabled": false
+        },
+        "Dearrow": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -582,6 +598,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1693138326625
+        "settingsSyncVersion": 1694953114463
     }
 }
