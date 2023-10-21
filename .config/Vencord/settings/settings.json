@@ -77,7 +77,8 @@
         },
         "BetterRoleDot": {
             "enabled": true,
-            "bothStyles": false
+            "bothStyles": false,
+            "copyRoleColorInProfilePopout": false
         },
         "BetterUploadButton": {
             "enabled": false
@@ -586,6 +587,12 @@
         },
         "Dearrow": {
             "enabled": false
+        },
+        "OnePingPerDM": {
+            "enabled": false
+        },
+        "PermissionFreeWill": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -598,6 +605,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1694953114463
+        "settingsSyncVersion": 1697115966658
     }
 }

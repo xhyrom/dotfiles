@@ -118,7 +118,10 @@ export PATH="$ZIGD_HOME:$PATH"
 
 # pnpm
 export PNPM_HOME="/home/hyro/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
 # pnpm end
 
 # bun

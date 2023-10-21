@@ -41,4 +41,16 @@ if [[ $1 == "install" ]]; then
   exit
 fi
 
+# Trick publish command
+if [[ $1 == "publish" ]]; then
+  corepack npm $@
+  exit
+fi
+
+# Trick info command
+if [[ $1 == "info" ]]; then
+  corepack npm $@
+  exit
+fi
+
 pnpm $@
