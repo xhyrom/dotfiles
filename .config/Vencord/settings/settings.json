@@ -593,6 +593,12 @@
         },
         "PermissionFreeWill": {
             "enabled": false
+        },
+        "NoMosaic": {
+            "enabled": false
+        },
+        "NoTypingAnimation": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -605,6 +611,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1697115966658
+        "settingsSyncVersion": 1698426449082
     }
 }
