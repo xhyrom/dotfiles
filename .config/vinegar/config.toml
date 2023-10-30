@@ -1,0 +1,20 @@
+# See how to configure Vinegar on the documentation website:
+# https://vinegarhq.github.io/Configuration
+wineroot = "/home/hyro/.local/share/lutris/runners/wine/lutris-GE-Proton8-13-x86_64"
+
+[env]
+WINEFSYNC = "1"
+WINEESYNC = "1"
+LD_LIBRARY_PATH="/home/hyro/.local/share/lutris/runners/wine/lutris-GE-Proton8-15-x86_64/lib:/home/hyro/.local/share/lutris/runners/wine/lutris-GE-Proton8-15-x86_64/lib64:/usr/lib:/usr/lib32:/usr/lib/libfakeroot:/usr/lib64:/home/hyro/.local/share/lutris/runtime/Ubuntu-18.04-i686:/home/hyro/.local/share/lutris/runtime/steam/i386/lib/i386-linux-gnu:/home/hyro/.local/share/lutris/runtime/steam/i386/lib:/home/hyro/.local/share/lutris/runtime/steam/i386/usr/lib/i386-linux-gnu:/home/hyro/.local/share/lutris/runtime/steam/i386/usr/lib:/home/hyro/.local/share/lutris/runtime/Ubuntu-18.04-x86_64:/home/hyro/.local/share/lutris/runtime/steam/amd64/lib/x86_64-linux-gnu:/home/hyro/.local/share/lutris/runtime/steam/amd64/lib:/home/hyro/.local/share/lutris/runtime/steam/amd64/usr/lib/x86_64-linux-gnu:/home/hyro/.local/share/lutris/runtime/steam/amd64/usr/lib"
+VK_ICD_FILENAMES="/usr/share/vulkan/icd.d/radeon_icd.i686.json:/usr/share/vulkan/icd.d/radeon_icd.x86_64.json"
+DISABLE_LAYER_AMD_SWITCHABLE_GRAPHICS_1="1"
+WINEARCH="win64"
+DXVK_NVAPIHACK="0"
+DXVK_ENABLE_NVAPI="1"
+WINEDLLOVERRIDES="d3d10core,d3d11,d3d12,d3d12core,d3d9,d3dcompiler_33,d3dcompiler_34,d3dcompiler_35,d3dcompiler_36,d3dcompiler_37,d3dcompiler_38,d3dcompiler_39,d3dcompiler_40,d3dcompiler_41,d3dcompiler_42,d3dcompiler_43,d3dcompiler_46,d3dcompiler_47,d3dx10,d3dx10_33,d3dx10_34,d3dx10_35,d3dx10_36,d3dx10_37,d3dx10_38,d3dx10_39,d3dx10_40,d3dx10_41,d3dx10_42,d3dx10_43,d3dx11_42,d3dx11_43,d3dx9_24,d3dx9_25,d3dx9_26,d3dx9_27,d3dx9_28,d3dx9_29,d3dx9_30,d3dx9_31,d3dx9_32,d3dx9_33,d3dx9_34,d3dx9_35,d3dx9_36,d3dx9_37,d3dx9_38,d3dx9_39,d3dx9_40,d3dx9_41,d3dx9_42,d3dx9_43,dxgi,nvapi,nvapi64=n;winemenubuilder="
+WINE_LARGE_ADDRESS_AWARE="1"
+
+[player]
+channel = "zavatarteam2"
+renderer = "Vulkan"
+dxvk = true
