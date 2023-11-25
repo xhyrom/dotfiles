@@ -131,3 +131,12 @@ esac
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 # bun end
+
+# ruby
+export RUBY_INSTALL="$HOME/.local/share/gem/ruby/3.0.0/bin"
+export PATH="$RUBY_INSTALL:$PATH"
+# ruby end
+
+# python virtual env
+export PYTHON_INSTALL="$HOME/.local/share/python-venv/bin"
+export PATH="$PYTHON_INSTALL:$PATH"

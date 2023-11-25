@@ -19,7 +19,7 @@
             "enabled": false
         },
         "AnonymiseFileNames": {
-            "enabled": false
+            "enabled": true
         },
         "BadgeAPI": {
             "enabled": true
@@ -67,7 +67,9 @@
             "closeAllFolders": false,
             "closeAllHomeButton": false,
             "closeOthers": false,
-            "forceOpen": false
+            "forceOpen": false,
+            "showFolderIcon": 1,
+            "keepIcons": false
         },
         "BetterGifAltText": {
             "enabled": false
@@ -328,7 +330,7 @@
             "enabled": true,
             "useDevIcon": "GREYSCALE",
             "theme": "https://raw.githubusercontent.com/shikijs/shiki/0b28ad8ccfbf2615f2d9d38ea8255416b8ac3043/packages/shiki/themes/dark-plus.json",
-            "tryHljs": "ALWAYS",
+            "tryHljs": "PRIMARY",
             "bgOpacity": 100,
             "customTheme": "https://raw.githubusercontent.com/ajorgensen/vscode-nightfox/all-themes/themes/carbonfox-dark-theme.json"
         },
@@ -449,7 +451,7 @@
             "preventCarouselFromClosingOnClick": true,
             "invertScroll": true,
             "zoom": 1,
-            "size": 100,
+            "size": 50,
             "zoomSpeed": 0.27926829268292686,
             "nearestNeighbour": false,
             "square": false
@@ -599,6 +601,9 @@
         },
         "NoTypingAnimation": {
             "enabled": false
+        },
+        "SuperReactionTweaks": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -611,6 +616,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1698426449082
+        "settingsSyncVersion": 1700750914881
     }
 }
