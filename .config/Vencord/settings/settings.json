@@ -19,7 +19,9 @@
             "enabled": false
         },
         "AnonymiseFileNames": {
-            "enabled": true
+            "enabled": false,
+            "method": 0,
+            "randomisedLength": 7
         },
         "BadgeAPI": {
             "enabled": true
@@ -604,6 +606,21 @@
         },
         "SuperReactionTweaks": {
             "enabled": false
+        },
+        "ClientTheme": {
+            "enabled": false
+        },
+        "FixImagesQuality": {
+            "enabled": false
+        },
+        "Decor": {
+            "enabled": false
+        },
+        "NotificationVolume": {
+            "enabled": false
+        },
+        "XSOverlay": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -616,6 +633,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1700750914881
+        "settingsSyncVersion": 1702996907811
     }
 }

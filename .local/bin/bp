@@ -5,7 +5,8 @@
 BP_TEMP_PATH=$(mktemp -d --suffix=-bun.playground)
 
 cd $BP_TEMP_PATH
-bun init -y
-nvim .
+#bun init -y
+#nvim .
+code $BP_TEMP_PATH
 
-rm -rf $BP_TEMP_PATH
+#rm -rf $BP_TEMP_PATH
