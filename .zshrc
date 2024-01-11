@@ -140,3 +140,6 @@ export PATH="$RUBY_INSTALL:$PATH"
 # python virtual env
 export PYTHON_INSTALL="$HOME/.local/share/python-venv/bin"
 export PATH="$PYTHON_INSTALL:$PATH"
+# >>> xmake >>>
+test -f "/home/hyro/.xmake/profile" && source "/home/hyro/.xmake/profile"
+# <<< xmake <<<

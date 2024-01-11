@@ -1,0 +1,38 @@
+/** Show original links when using masked links **/
+@import url(https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/ShowOriginalLink.css);
+
+/** Discord 11 + windows 11 emojis */
+@import url(https://zuzumi-f.github.io/Discord-11/base.css);
+@import url(https://zuzumi-f.github.io/Discord-11/release/font/windows11font.css);
+@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
+
+:root {
+    --wallpaper-is: none; /* Wallpaper - Replace de url only */
+    --blur-size: 24px; /* Amount of blur in pixels [24px is default] */
+    --opacity-thing: 0.6; /* Value from 0 to 1 [0.6 is default] */
+    --server-size: 48px; /* The size of the server icons [48px is default] */
+      
+    /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
+    --H: 199; /* Value only number [199 is default] */
+    --S: 100%; /* Value in % [100% is default] */
+    --L: 69%; /* Value in % [69% is default] */
+}
+
+/** Discolored - colorful SVGs **/
+@import url(https://nyri4.github.io/Discolored/support/discolored.theme.css);
+
+/** Beautiful gradient for name (thanks luna :3 index.tsx 174200708818665472) **/
+:is([class*=contents-], [class*=memberInner]):has([src*="525316393768452098"]) [class*=username] {
+  background: -webkit-linear-gradient(90deg,#12edf9,#eae3b4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/** Better markdown headers **/
+[class*=messageContent] :is(h1, h2, h3) {
+  color: salmon;
+}
+[class*=messageContent] strong {
+    color: lightsalmon;
+}

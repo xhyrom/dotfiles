@@ -1,0 +1,16 @@
+{
+    "minimizeToTray": "on",
+    "discordBranch": "canary",
+    "firstLaunch": false,
+    "arRPC": "on",
+    "splashColor": "rgb(219, 222, 225)",
+    "splashBackground": "rgb(44, 44, 44)",
+    "windowBounds": {
+        "x": 0,
+        "y": 30,
+        "width": 1920,
+        "height": 1010
+    },
+    "maximized": true,
+    "minimized": false
+}
