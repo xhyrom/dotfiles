@@ -44,7 +44,32 @@ case $1 in
     *.tar.xz)
         tar -xf $1 -C $extraction_folder;;
     *.tar.zst)
-        unzstd $1 -o $extraction_folder;;
+        unzstd $1;;
+    *.tar.lz)
+        tar --lzip -xf $1 -C $extraction_folder;;
+    *.tar.lzop)
+        lzop -d $1 -o $extraction_folder/$(basename $1 .lzop);;
+    *.bz3)
+        bunzip3 $1 -c > $extraction_folder/$(basename $1 .bz3);;
+    *.a)
+        ar -x $1;;
+    *.lz)
+        lzip -d $1 -o $extraction_folder/$(basename $1 .lz);;
+    *.lzo)
+        lzop -d $1 -o $extraction_folder/$(basename $1 .lzo);;
+    *.lz4)
+        lz4 -d $1;;
+    *.lrz)
+        lrz -d $1 -o $extraction_folder/$(basename $1 .lrz);;
+    *.shar)
+        unshar $1;;
+    *.xz)
+        xz -d $1;;
+    *.zst)
+        zstd -d $1 -o $extraction_folder/$(basename $1 .zst);;
+    *.cpio)
+        cpio -idmv < $1;;
     *)
-        echo "'$1' cannot be extracted via ex()";;
+        echo "'$1' cannot be extracted via ex()"
+        exit 1;;
 esac
