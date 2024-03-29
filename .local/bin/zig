@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Use zigd - version managing
-zigd $@
