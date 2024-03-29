@@ -9,3 +9,4 @@ PS1='[\u@\h \W]\$ '
 xbindkeys
 
 eval "$(starship init bash)"
+source ~/.local/share/blesh/ble.sh
