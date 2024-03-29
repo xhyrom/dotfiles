@@ -1,12 +1,14 @@
 ii 7zip-23.01_1                              File archiver with a high compression ratio
 ii LuaJIT-2.1.0beta3_2                       Just-In-Time Compiler for Lua
 ii NetworkManager-1.46.0_2                   Network Management daemon
+ii NoiseTorch-0.12.2_2                       Real-time microphone noise suppression on Linux
 ii SDL-1.2.15_14                             Simple Directmedia Layer
 ii SDL2-2.30.1_1                             Simple DirectMedia Layer (version 2)
 ii aalib-1.4rc5_2                            Portable ASCII art GFX library
 ii accountsservice-0.6.55_3                  D-Bus interfaces for querying and manipulating user account information
 ii acl-2.3.2_1                               Access Control List filesystem support
 ii acpid-2.0.34_3                            ACPI Daemon (acpid) With Netlink Support
+ii acpilight-1.2_2                           Backward-compatibile xbacklight replacement
 ii adwaita-icon-theme-45.0_1                 Theme consisting of a set of icons for GTK+
 ii alsa-lib-1.2.11_1                         Advanced Linux Sound Architecture (ALSA) library
 ii alsa-pipewire-1.0.3_2                     Server and user space API to deal with multimedia pipelines - ALSA client library
