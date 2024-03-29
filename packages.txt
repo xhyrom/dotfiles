@@ -453,6 +453,10 @@ ii ncurses-base-6.4_2                        System V Release 4.0 curses emulati
 ii ncurses-libs-6.4_2                        System V Release 4.0 curses emulation library -- shared libraries
 ii neofetch-7.1.0_2                          Simple system information script
 ii neovim-0.9.5_1                            Fork of Vim aiming to improve user experience, plugins and GUIs
+ii nerd-fonts-3.1.1_1                        Iconic font aggregator, collection and patcher
+ii nerd-fonts-otf-3.1.1_1                    Iconic font aggregator, collection and patcher - OTF fonts
+ii nerd-fonts-symbols-ttf-3.1.1_1            Iconic font aggregator, collection and patcher - TTF symbols-only font
+ii nerd-fonts-ttf-3.1.1_1                    Iconic font aggregator, collection and patcher - TTF fonts
 ii nettle-3.9.1_1                            Low-level cryptographic library
 ii network-manager-applet-1.36.0_1           NetworkManager panel applet for GNOME
 ii newt-0.52.21_7                            Library for color text mode, widget based user interfaces
@@ -544,6 +548,7 @@ ii runit-2.1.2_15                            UNIX init scheme with service super
 ii runit-void-20231124_1                     Void Linux runit scripts
 ii samba-libs-4.14.12_5                      SMB/CIFS file, print, and login server for Unix - core libraries
 ii sbc-2.0_1                                 Bluetooth Subband Codec (SBC) library
+ii scrot-1.10_1                              Simple command-line screenshot utility for X
 ii sed-4.9_1                                 The GNU stream editor
 ii setxkbmap-1.3.4_1                         Set the keyboard map using the X Keyboard Extension
 ii shadow-4.8.1_3                            Shadow password file utilities
@@ -557,6 +562,7 @@ ii speech-dispatcher-0.11.5_1                High-level device independent layer
 ii speexdsp-1.2.1_1                          Free codec for free speech - DSP
 ii sqlite-3.44.2_2                           SQL Database Engine in a C Library
 ii sratom-0.6.16_1                           Library for serialising LV2 atoms to/from RDF (Turtle syntax)
+ii starship-1.18.0_1                         Minimal, fast and customizable cross-shell prompt
 ii startup-notification-0.12_11              Library for tracking application startup
 ii sudo-1.9.15p4_1                           Allow others to run commands as root
 ii taglib-1.13.1_1                           Library for accessing ID tags in various media files
@@ -605,6 +611,7 @@ ii xcb-util-image-0.4.1_1                    Utility libraries for XCB - XImage 
 ii xcb-util-keysyms-0.4.1_1                  Utility libraries for XCB - key constants and keycode conversion
 ii xcb-util-renderutil-0.3.10_1              Utility libraries for XCB - Render extension convenience functions
 ii xcb-util-wm-0.4.2_1                       Utility libraries for XC Binding - window-manager helpers for ICCCM
+ii xclip-0.13_2                              Command line interface to the X11 clipboard
 ii xdg-utils-1.1.3_5                         Tools to assist applications with various desktop integration tasks
 ii xf86-input-evdev-2.10.6_2                 Xorg event device input driver
 ii xf86-input-libinput-1.4.0_1               Generic input driver for the X.Org server based on libinput
