@@ -14,6 +14,12 @@
   </item>
 </menu>
 
+<menu id="apps-games-menu" label="Games">
+  <item label="PollyMC">
+    <action name="Execute"><command>pollymc</command></action>
+  </item>
+</menu>
+
 <menu id="apps-term-menu" label="Terminals">
   <item label="Kitty">
     <action name="Execute"><command>kitty</command></action>
@@ -57,6 +63,7 @@
 <menu id="root-menu" label="Openbox 3">
   <separator label="Applications" />
   <menu id="apps-editors-menu"/>
+  <menu id="apps-games-menu"/>
   <menu id="apps-net-menu"/>
   <menu id="apps-term-menu"/>
   <separator label="System" />
