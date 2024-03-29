@@ -22,6 +22,7 @@ ii ayatana-ido-0.9.3_1                       Ayatana Indicator Display Objects
 ii base-files-0.144_1                        Void Linux base system files
 ii base-system-0.114_2                       Void Linux base system meta package
 ii bash-5.2.21_1                             GNU Bourne Again Shell
+ii bat-0.24.0_2                              Cat(1) clone with syntax highlighting and Git integration
 ii bc-1.07.1_5                               Arbitrary precision numeric processing language
 ii binutils-2.41_3                           GNU binary utilities
 ii binutils-doc-2.41_3                       GNU binary utilities - info files
@@ -134,6 +135,8 @@ ii gvfs-mtp-1.52.2_1                         Userspace virtual filesystem - MTP 
 ii gvfs-smb-1.52.2_1                         Userspace virtual filesystem - SMB/CIFS (Windows client) backend
 ii gzip-1.13_1                               GNU compression utility (replacement for compress)
 ii hicolor-icon-theme-0.17_3                 Standard icon theme called hicolor
+ii htop-3.3.0_1                              Interactive process viewer
+ii http-parser-2.9.4.20201223_1              HTTP request/response parser for c
 ii hwids-0.375_1                             Hardware Identification Databases
 ii iana-etc-20240117_1                       Unix /etc/services and /etc/protocols files
 ii icu-libs-73.2_2                           Robust and fully-featured Unicode libraries - shared libs
@@ -253,6 +256,7 @@ ii libgcc-13.2.0_2                           GNU Compiler Collection - GCC libra
 ii libgcc-devel-13.2.0_2                     GNU Compiler Collection - GCC library - development files
 ii libgcrypt-1.10.2_1                        GNU cryptographic library
 ii libgirepository-1.76.1_3                  Library for handling GObject introspection data (runtime library)
+ii libgit2-1.7.2_1                           Git linkable library
 ii libglapi-24.0.2_2                         Free implementation of the GL API - shared library
 ii libglvnd-1.7.0_1                          GL Vendor-Neutral Dispatch library
 ii libgme-0.6.3_1                            Video game music file emulation/playback library
