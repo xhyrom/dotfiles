@@ -101,6 +101,7 @@ ii glibc-2.39_2                              GNU C library
 ii glibc-devel-2.39_2                        GNU C library - development files
 ii glibc-locales-2.39_2                      GNU C library - locale data files
 ii glibmm-2.66.6_1                           C++ bindings for GLib
+ii glxinfo-8.4.0_3                           Tool to diagnose problems with 3D acceleration setup
 ii gmp-6.3.0_1                               Library for arbitrary precision arithmetic
 ii gnome-keyring-42.1_1                      GNOME password and secret manager
 ii gnome-themes-extra-3.28_4                 Extra GNOME themes
@@ -436,6 +437,7 @@ ii mdadm-4.3_2                               Tool for managing/monitoring Linux 
 ii mdocml-1.14.6_8                           UNIX manpage compiler toolset (mandoc)
 ii mesa-24.0.2_2                             Open source implementation of OpenGL and Vulkan
 ii mesa-dri-24.0.2_2                         Mesa DRI drivers
+ii mesa-vulkan-radeon-24.0.2_2               Mesa Radeon Vulkan driver
 ii mit-krb5-libs-1.21.2_3                    MIT Kerberos 5 implementation - runtime libraries
 ii mkfontscale-1.2.2_1                       X11 Scalable Font Index Generator
 ii mobile-broadband-provider-info-20220511_1 Database of mobile broadband service providers
@@ -625,6 +627,7 @@ ii xorg-minimal-1.2_2                        Xorg meta-package including xorg-xs
 ii xorg-server-21.1.11_1                     X11 server from X.org
 ii xorg-server-common-21.1.11_1              X11 server from X.org- common files
 ii xorg-video-drivers-7.6_22                 X.org video drivers meta-package
+ii xrandr-1.5.2_1                            Primitive command line interface to RandR extension
 ii xset-1.2.5_2                              X11 user preferences utility
 ii xtools-0.66_1                             Opinionated helpers for working with XBPS
 ii xtools-minimal-0.66_1                     Opinionated helpers for working with XBPS - minimal subset
