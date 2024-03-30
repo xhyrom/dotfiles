@@ -1,7 +1,6 @@
 ii 7zip-23.01_1                              File archiver with a high compression ratio
 ii LuaJIT-2.1.0beta3_2                       Just-In-Time Compiler for Lua
 ii NetworkManager-1.46.0_2                   Network Management daemon
-ii NoiseTorch-0.12.2_2                       Real-time microphone noise suppression on Linux
 ii SDL-1.2.15_14                             Simple Directmedia Layer
 ii SDL2-2.30.1_1                             Simple DirectMedia Layer (version 2)
 ii aalib-1.4rc5_2                            Portable ASCII art GFX library
@@ -297,7 +296,7 @@ ii liblrdf-0.6.1_2                           Lightweight RDF library with specia
 ii libltdl-2.4.7_5                           Runtime libraries for GNU Libtool Dynamic Module Loader
 ii libluv-1.44.2.1_1                         Bare libuv bindings for LuaJIT
 ii liblz4-1.9.4_1                            LZ4 compression library
-ii liblzma-5.6.0_1                           XZ-format compression library
+ii liblzma-5.4.6_2                           XZ-format compression library
 ii libmagic-5.45_1                           File type identification library
 ii libmd4c-0.4.8_1                           Markdown for C - libraries
 ii libmm-glib-1.18.12_1                      Mobile broadband modem management service - GLib library
@@ -428,8 +427,8 @@ ii linux-firmware-intel-20240312_1           Binary firmware blobs for the Linux
 ii linux-firmware-network-20240312_1         Binary firmware blobs for the Linux kernel - network
 ii linux-firmware-nvidia-20240312_1          Binary firmware blobs for the Linux kernel NVIDIA GPU microcode
 ii linux-headers-6.6_1                       Linux kernel headers meta package
-ii linux6.6-6.6.22_1                         Linux kernel and modules (6.6 series)
-ii linux6.6-headers-6.6.22_1                 Linux kernel and modules (6.6 series) - source headers for 3rd party modules
+ii linux6.6-6.6.23_1                         Linux kernel and modules (6.6 series)
+ii linux6.6-headers-6.6.23_1                 Linux kernel and modules (6.6 series) - source headers for 3rd party modules
 ii lmdb-0.9.31_1                             Lightning Memory-Mapped Database Manager
 ii lowdown-1.1.0_1                           Simple markdown translator
 ii lsof-4.99.3_1                             LiSt Open Files
@@ -479,6 +478,8 @@ ii ocl-icd-2.3.2_2                           Generic OpenCL ICD loader/demultipl
 ii oniguruma-6.9.9_1                         Multi-charset regular expressions library
 ii openbox-3.6.1_5                           Standards compliant, fast, light-weight, extensible window manager
 ii openjdk-common-2_1                        Common files for OpenJDK packages
+ii openjdk17-17.0.10+6_1                     OpenJDK Java Development Kit (version 17)
+ii openjdk17-jre-17.0.10+6_1                 OpenJDK Java Development Kit (version 17) - runtime components
 ii openjdk8-8u332b05_2                       OpenJDK Java Development Kit (version 8)
 ii openjdk8-jre-8u332b05_2                   OpenJDK Java Development Kit (version 8) - runtime components
 ii openresolv-3.13.2_1                       Management framework for resolv.conf
