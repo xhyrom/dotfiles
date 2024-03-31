@@ -46,6 +46,7 @@ ii cryptsetup-2.7.0_1                        Setup virtual encryption devices un
 ii curl-8.6.0_1                              Client that groks URLs
 ii dash-0.5.12_2                             POSIX-compliant Unix shell, much smaller than GNU bash
 ii dbus-1.14.10_1                            Message bus system
+ii dbus-glib-0.112_1                         GLib bindings for D-Bus
 ii dbus-libs-1.14.10_1                       Message bus system - shared libraries
 ii dbus-x11-1.14.10_1                        Message bus system - X11 support
 ii dconf-0.40.0_1                            Low-level configuration system
@@ -417,6 +418,7 @@ ii libxslt-1.1.39_2                          XSLT parser library from the GNOME 
 ii libxxHash-0.8.2_1                         Fast non-cryptographic hashing algorithm - library
 ii libzbar-0.23.1_7                          Barcode reading library and application - library files
 ii libzstd-1.5.6_1                           Fast real-time compression algorithm
+ii light-locker-1.9.0_3                      Simple session-locker for lightdm
 ii lightdm-1.32.0_5                          Light Display Manager
 ii lightdm-gtk3-greeter-2.0.8_2              Light Display Manager GTK+ Greeter (GTK+ 3.x)
 ii linux-6.6_1                               Linux kernel meta package
@@ -458,6 +460,7 @@ ii nerd-fonts-3.1.1_1                        Iconic font aggregator, collection 
 ii nerd-fonts-otf-3.1.1_1                    Iconic font aggregator, collection and patcher - OTF fonts
 ii nerd-fonts-symbols-ttf-3.1.1_1            Iconic font aggregator, collection and patcher - TTF symbols-only font
 ii nerd-fonts-ttf-3.1.1_1                    Iconic font aggregator, collection and patcher - TTF fonts
+ii netcat-0.7.1_7                            The GNU netcat utility
 ii nettle-3.9.1_1                            Low-level cryptographic library
 ii network-manager-applet-1.36.0_1           NetworkManager panel applet for GNOME
 ii newt-0.52.21_7                            Library for color text mode, widget based user interfaces
@@ -647,5 +650,6 @@ ii xtools-0.66_1                             Opinionated helpers for working wit
 ii xtools-minimal-0.66_1                     Opinionated helpers for working with XBPS - minimal subset
 ii xvidcore-1.3.7_1                          ISO MPEG-4 compliant video codec
 ii zd1211-firmware-1.5_3                     Firmware for the Zydas 1211 wifi cards
+ii zip-3.0_6                                 Create/update ZIP files compatible with pkzip
 ii zix-0.4.2_1                               C library of portability wrappers and data structures
 ii zlib-1.3.1_1                              Compression/decompression Library
