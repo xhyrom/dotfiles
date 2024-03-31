@@ -10,3 +10,7 @@ xbindkeys
 
 eval "$(starship init bash)"
 source ~/.local/share/blesh/ble.sh
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
