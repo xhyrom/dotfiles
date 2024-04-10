@@ -46,6 +46,7 @@ ii chromaprint-1.5.1_1                       Library that extracts fingerprints 
 ii chrony-4.5_1                              Versatile implementation of the Network Time Protocol (NTP)
 ii clang17-headers-17.0.6_2                  LLVM Compiler Infrastructure Project - Version 17 - C language family frontend - Headers
 ii cmake-3.27.6_1                            Cross-platform, open-source build system
+ii containerd-1.7.14_1                       Open and reliable container runtime
 ii coreutils-9.4_1                           GNU core utilities
 ii cpio-2.15_1                               GNU copy-in/out (cpio) with remote magnetic tape (rmt) support
 ii cppdap-1.58.0+a_1                         C++ library for the Debug Adapter Protocol
@@ -65,6 +66,8 @@ ii dialog-1.3.20240307_1                     Tool to display dialog boxes from s
 ii diffutils-3.10_1                          GNU diff utilities
 ii dkms-3.0.12_1                             Dynamic Kernel Module Support
 ii dnssec-anchors-20230213_1                 DNSSEC trust anchors for the root zone
+ii docker-25.0.3_1                           Docker container runtime
+ii docker-cli-25.0.3_1                       Command-line interface for the Docker daemon
 ii dosfstools-4.2_1                          DOS filesystem tools
 ii dotconf-1.3_3                             A C library for parsing configuration files
 ii double-conversion-3.3.0_1                 Efficient binary-decimal and decimal-binary routines for IEEE doubles
@@ -100,6 +103,8 @@ ii gawk-5.1.1_1                              GNU awk utility
 ii gc-8.2.6_1                                Garbage collector for C and C++
 ii gcc-13.2.0_2                              GNU Compiler Collection
 ii gcr-3.41.1_1                              GNOME crypto package
+ii gdb-14.2_2                                GNU Debugger
+ii gdb-common-14.2_2                         GNU Debugger - common files
 ii gdbm-1.23_1                               GNU database routines
 ii gdk-pixbuf-2.42.10_2                      Image loading library for The GTK+ toolkit (v2)
 ii giflib-5.2.1_1                            Library to handle, display and manipulate GIF images
@@ -166,6 +171,7 @@ ii iw-5.19_1                                 Utility for nl80211 based CLI confi
 ii jansson-2.14_1                            Library for encoding, decoding and manipulating JSON data
 ii jbigkit-libs-2.2_2                        Data compression library/utilities for bi-level high-resolution images - shared libraries
 ii jetbrains-jdk-bin-11.0.15b2043.56_1       JetBrains Java 11 JDK
+ii jq-1.7.1_1                                Command-line JSON processor
 ii json-c-0.17_1                             JSON implementation in C
 ii json-glib-1.8.0_1                         JSON parser for GLib-based libraries and applications
 ii jsoncpp-1.9.5_1                           JSON implementation in C++
@@ -184,7 +190,7 @@ ii ldb-2.3.2_3                               LDAP-like database from samba
 ii less-643_1                                Pager program similar to more(1)
 ii libICE-1.1.1_1                            Inter Client Exchange (ICE) library for X
 ii libSM-1.2.4_1                             X Session Management Library
-ii libX11-1.8.8_1                            Base X libraries from Xorg
+uu libX11-1.8.9_1                            Base X libraries from Xorg
 ii libXScrnSaver-1.2.4_1                     X11 Screen Saver Library
 ii libXau-1.0.11_1                           Authorization Protocol for X
 ii libXcomposite-0.4.6_1                     X Composite Library
@@ -480,6 +486,7 @@ ii mesa-vulkan-radeon-24.0.2_2               Mesa Radeon Vulkan driver
 ii mit-krb5-libs-1.21.2_3                    MIT Kerberos 5 implementation - runtime libraries
 ii mkfontscale-1.2.2_1                       X11 Scalable Font Index Generator
 ii mobile-broadband-provider-info-20220511_1 Database of mobile broadband service providers
+ii moby-26.0.0_1                             Container engine for the Docker ecosystem
 ii mpfr-4.2.1_1                              Library for multiple-precision floating-point computations
 ii mpfr-devel-4.2.1_1                        Library for multiple-precision floating-point computations - development files
 ii msgpack-4.0.0_1                           Binary-based efficient object serialization library for C
@@ -590,6 +597,7 @@ ii removed-packages-0.1.20240312_1           Uninstalls packages removed from re
 ii rhash-1.4.4_2                             Utility for computing hash sums and creating magnet links
 ii ripgrep-14.1.0_1                          Fast search tool inspired by ag and grep
 ii run-parts-4.11.2_2                        Run scripts or programs in a directory
+ii runc-1.1.12_1                             CLI tool for spawning and running OCI containers
 ii runit-2.1.2_15                            UNIX init scheme with service supervision
 ii runit-void-20231124_1                     Void Linux runit scripts
 ii rust-1.77.1_1                             Safe, concurrent, practical systems language
@@ -620,6 +628,7 @@ ii terminus-font-4.49.1_1                    Clean, fixed width bitmap font
 ii tevent-0.11.0_3                           Event system based on the talloc memory management library
 ii thin-provisioning-tools-1.0.4_1           Tools for manipulating the metadata of dm-thin device-mapper targets
 ii tiff-4.6.0_1                              Library and tools for reading and writing TIFF data files
+ii tini-0.19.0_2                             Tiny but valid init for containers
 ii tint2-17.0.2_1                            Simple panel/taskbar made for modern X window managers
 ii traceroute-2.1.3_1                        Traces the route taken by packets over an IPv4/IPv6 network
 ii tree-sitter-0.22.1_1                      Parser generator tool and incremental parsing library
@@ -693,6 +702,7 @@ ii xset-1.2.5_2                              X11 user preferences utility
 ii xtools-0.66_1                             Opinionated helpers for working with XBPS
 ii xtools-minimal-0.66_1                     Opinionated helpers for working with XBPS - minimal subset
 ii xvidcore-1.3.7_1                          ISO MPEG-4 compliant video codec
+ii xz-5.4.6_2                                XZ compression utilities
 ii z3-4.13.0_1                               Z3 theorem prover and SMT solver (command line + Python3 module)
 ii zd1211-firmware-1.5_3                     Firmware for the Zydas 1211 wifi cards
 ii zig-0.10.1_3                              Programming language designed for robustness, optimality, and clarity
