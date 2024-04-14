@@ -92,6 +92,7 @@ ii file-5.45_1                               File type identification utility
 ii findutils-4.9.0_1                         GNU Find Utilities
 ii flite-2.2_1                               Lightweight speech synthesis engine
 ii font-alias-1.0.5_1                        Standard aliases for X11 PCF fonts
+ii font-latinmodern-math-1.959_1             Improved version of Computer Modern math font as used in LaTeX
 ii font-misc-misc-1.1.3_1                    Standard X11 fixed PCF fonts
 ii font-util-1.4.1_1                         Tools for truncating and subseting of ISO10646-1 BDF fonts
 ii fontconfig-2.14.2_1                       Library for configuring and customizing font access
@@ -190,7 +191,7 @@ ii ldb-2.3.2_3                               LDAP-like database from samba
 ii less-643_1                                Pager program similar to more(1)
 ii libICE-1.1.1_1                            Inter Client Exchange (ICE) library for X
 ii libSM-1.2.4_1                             X Session Management Library
-uu libX11-1.8.9_1                            Base X libraries from Xorg
+ii libX11-1.8.9_1                            Base X libraries from Xorg
 ii libXScrnSaver-1.2.4_1                     X11 Screen Saver Library
 ii libXau-1.0.11_1                           Authorization Protocol for X
 ii libXcomposite-0.4.6_1                     X Composite Library
@@ -565,6 +566,9 @@ ii pnpm-8.15.4_1                             Fast, disk space efficient package 
 ii polkit-121_2                              Authorization Toolkit
 ii pollymc-8.0_1                             DRM-free Prism Launcher fork with support for custom auth servers.
 ii popt-1.19_1                               Command line option parsing library
+ii postgresql-client-16_1                    Client frontends programs for PostgreSQL
+ii postgresql-libs-16.2_1                    PostgreSQL shared libraries
+ii postgresql16-client-16.2_1                Client frontends programs for PostgreSQL
 ii procps-ng-4.0.4_2                         Utilities for monitoring your system and its processes
 ii public-suffix-2024.03.01_1                Public Suffix List
 ii pulseaudio-utils-16.1_2                   Featureful, general-purpose sound server - utilities
@@ -577,6 +581,7 @@ ii python3-devel-3.12.2_2                    Python programming language (3.12 s
 ii python3-gobject-3.48.1_1                  Python3 bindings for GObject
 ii python3-setuptools-69.2.0_1               Easily build and distribute Python3 packages
 ii python3-six-1.16.0_4                      Python 2 and 3 compatibility utilities (Python3)
+ii python3-tkinter-3.12.2_1                  Python programming language - GUI toolkit for Python3
 ii python3-xdg-0.28_4                        Python3 library to access freedesktop.org standards
 ii qt6-base-6.6.0_1                          Cross-platform application and UI framework (QT6)
 ii qt6-core-6.6.0_1                          Cross-platform application and UI framework (QT6) - Core
@@ -624,12 +629,14 @@ ii sudo-1.9.15p4_1                           Allow others to run commands as roo
 ii taglib-1.13.1_1                           Library for accessing ID tags in various media files
 ii talloc-2.4.2_1                            Hierarchical pool based memory allocator with destructors
 ii tar-1.35_1                                GNU tape archiver with remote magnetic tape support
+ii tcl-8.6.13_1                              TCL scripting language
 ii terminus-font-4.49.1_1                    Clean, fixed width bitmap font
 ii tevent-0.11.0_3                           Event system based on the talloc memory management library
 ii thin-provisioning-tools-1.0.4_1           Tools for manipulating the metadata of dm-thin device-mapper targets
 ii tiff-4.6.0_1                              Library and tools for reading and writing TIFF data files
 ii tini-0.19.0_2                             Tiny but valid init for containers
 ii tint2-17.0.2_1                            Simple panel/taskbar made for modern X window managers
+ii tk-8.6.13_1                               TK graphical user interface toolkit for TCL
 ii traceroute-2.1.3_1                        Traces the route taken by packets over an IPv4/IPv6 network
 ii tree-sitter-0.22.1_1                      Parser generator tool and incremental parsing library
 ii tslib-1.22_1                              Touchscreen access library
