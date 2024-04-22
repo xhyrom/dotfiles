@@ -1,0 +1,5 @@
+tint2 &
+xcompmgr &
+nitrogen --restore
+xrandr --output eDP --auto --primary --output HDMI-A-0 --same-as eDP
+xbindkeys
