@@ -12,6 +12,9 @@
       </startupnotify>
     </action>
   </item>
+  <item label="intellij">
+    <action name="Execute"><command>idea-ultimate</command></action>
+  </item>
 </menu>
 
 <menu id="apps-games-menu" label="Games">
