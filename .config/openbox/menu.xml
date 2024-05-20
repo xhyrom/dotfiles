@@ -18,9 +18,6 @@
 </menu>
 
 <menu id="apps-games-menu" label="Games">
-  <item label="PollyMC">
-    <action name="Execute"><command>pollymc</command></action>
-  </item>
   <item label="Modrinth">
     <action name="Execute"><command>modrinth-app</command></action>
   </item>
