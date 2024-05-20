@@ -6,6 +6,7 @@ ii NetworkManager-1.46.0_2                    Network Management daemon
 ii SDL-1.2.15_14                              Simple Directmedia Layer
 ii SDL2-2.30.1_1                              Simple DirectMedia Layer (version 2)
 ii SPIRV-LLVM-Translator-17.0.0_1             API and commands for processing SPIR-V modules
+ii Thunar-4.18.10_1                           Thunar File Manager
 ii aalib-1.4rc5_2                             Portable ASCII art GFX library
 ii accountsservice-0.6.55_3                   D-Bus interfaces for querying and manipulating user account information
 ii acl-2.3.2_1                                Access Control List filesystem support
@@ -104,6 +105,7 @@ ii eudev-3.2.14_1                             Fork of systemd-udev (enhanced use
 ii eudev-libudev-3.2.14_1                     Fork of systemd-udev (enhanced userland device daemon) - runtime library
 ii eudev-libudev-32bit-3.2.14_1               Fork of systemd-udev (enhanced userland device daemon) - runtime library (32bit)
 ii eudev-libudev-devel-3.2.14_1               Fork of systemd-udev (enhanced userland device daemon) - development files
+ii exiv2-0.28.1_1                             Image metadata manipulation
 ii exo-4.18.0_1                               Extension library for the Xfce desktop environment
 ii expat-2.6.2_1                              XML parser library written in C
 ii expat-32bit-2.6.2_1                        XML parser library written in C (32bit)
@@ -111,6 +113,9 @@ ii expat-devel-2.6.2_1                        XML parser library written in C - 
 ii f2fs-tools-1.16.0_1                        Tools for the Linux Flash-Friendly File System (F2FS)
 ii faac-1.30_1                                AAC audio encoder library
 ii fdk-aac-2.0.3_1                            Fraunhofer FDK AAC codec library
+ii ffmpeg-4.4.4_7                             Decoding, encoding and streaming software
+ii ffmpegthumbnailer-2.2.2_1                  Lightweight video thumbnailer
+ii ffplay-4.4.4_7                             Simple video player using FFmpeg and SDL2
 ii file-5.45_1                                File type identification utility
 ii findutils-4.9.0_1                          GNU Find Utilities
 ii flatpak-1.15.8_1                           Application sandboxing and distribution framework
@@ -164,6 +169,7 @@ ii gnutls-devel-3.8.5_1                       GNU Transport Layer Security libra
 ii go-1.22.0_1                                Go Programming Language
 ii gobuster-3.6.0_2                           Directory, file and DNS busting tool
 ii google-chrome-124.0.6367.118_1             Attempt at creating a safer, faster, and more stable browser
+ii gpgmepp-1.23.2_3                           GnuPG Made Easy - C++ library
 ii graphene-1.10.8_1                          Thin layer of types for graphic libraries
 ii graphite-1.3.14_1                          Reimplementation of the SIL Graphite text processing engine
 ii graphite-devel-1.3.14_1                    Reimplementation of the SIL Graphite text processing engine - development files
@@ -202,6 +208,7 @@ ii iana-etc-20240117_1                        Unix /etc/services and /etc/protoc
 ii icu-devel-73.2_2                           Robust and fully-featured Unicode libraries - development files
 ii icu-libs-73.2_2                            Robust and fully-featured Unicode libraries - shared libs
 ii icu-libs-32bit-73.2_2                      Robust and fully-featured Unicode libraries - shared libs (32bit)
+ii imath-3.1.9_3                              C++/Python library for 2D/3D vector/matrix/math operations
 ii imlib2-1.12.2_2                            Image manipulation library
 ii inih-58_1                                  Simple ini file parser library
 ii intellij-idea-community-edition-2024.1.1_1 Java integrated development environment by JetBrains
@@ -292,10 +299,13 @@ ii libasyncns-0.8_9                           C library for executing name servi
 ii libatasmart-0.19_5                         ATA S.M.A.R.T. Reading and Parsing Library
 ii libatomic-13.2.0_2                         GNU Compiler Collection - Atomics library
 ii libatomic-devel-13.2.0_2                   GNU Compiler Collection - Atomics library - development files
-ii libavcodec-4.4.4_6                         FFmpeg codec library
-ii libavformat-4.4.4_6                        FFmpeg file format library
+ii libavcodec-4.4.4_7                         FFmpeg codec library
+ii libavdevice-4.4.4_7                        FFmpeg device handling library
+ii libavfilter-4.4.4_7                        FFmpeg audio/video filter library
+ii libavformat-4.4.4_7                        FFmpeg file format library
 ii libavif-1.0.4_1                            Library for encoding and decoding .avif files
-ii libavutil-4.4.4_6                          FFmpeg utility library
+ii libavresample-4.4.4_7                      FFmpeg audio resampling library
+ii libavutil-4.4.4_7                          FFmpeg utility library
 ii libayatana-appindicator-0.5.93_1           Ayatana Application Indicators Shared Library
 ii libayatana-indicator-0.9.4_1               Ayatana Indicators Shared Library
 ii libb2-0.98.1_1                             BLAKE2 cryptographic hash function
@@ -314,6 +324,9 @@ ii libcanberra-gtk3-0.30_12                   XDG Sound Theme and Name Specifica
 ii libcap-2.69_2                              POSIX.1e capabilities suite
 ii libcap-ng-0.8.4_1                          Alternate POSIX capabilities library
 ii libcap-progs-2.69_2                        POSIX.1e capabilities suite - utilities
+ii libcddb-1.3.2_9                            Library to access data on a CDDB server
+ii libcdio-2.1.0_1                            CD-ROM access library
+ii libcdio-paranoia-10.2+2.0.1_1              CD paranoia utility/libraries from libcdio
 ii libcdparanoia-10.2_15                      CDDA reading utility with extra data verification features - runtime library
 ii libclang-cpp15-15.0.7_4                    LLVM Compiler Infrastructure Project - Version 15 - C frontend runtime library (C++ interface)
 ii libclang-cpp17-17.0.6_2                    LLVM Compiler Infrastructure Project - Version 17 - C frontend library (C++ interface)
@@ -334,6 +347,7 @@ ii libdbusmenu-gtk3-16.04.0_6                 Library for passing menus over DBu
 ii libde265-1.0.12_1                          Open h.265 video codec implementation
 ii libdebuginfod-0.190_1                      Utilities to handle ELF object files - debuginfod library
 ii libdecor-0.1.1_1                           Client-side decorations library for Wayland client
+ii libdeflate-1.19_1                          Optimized library for DEFLATE/zlib/gzip (de)compression
 ii libdrm-2.4.120_1                           Userspace interface to kernel DRM services
 ii libdrm-32bit-2.4.120_1                     Userspace interface to kernel DRM services (32bit)
 ii libdrm-devel-2.4.120_1                     Userspace interface to kernel DRM services - development files
@@ -351,6 +365,7 @@ ii libev-4.33_1                               High-performance event loop loosel
 ii libevdev-1.13.1_1                          Wrapper library for evdev devices
 ii libevent-2.1.12_3                          Abstract asynchronous event notification library
 ii libevent-devel-2.1.12_3                    Abstract asynchronous event notification library - development files
+ii libexif-0.6.24_1                           EXIF file library
 ii libfdisk-2.39.3_2                          Library for fdisk(8)
 ii libffi-3.3_2                               Library supporting Foreign Function Interfaces
 ii libffi-32bit-3.3_2                         Library supporting Foreign Function Interfaces (32bit)
@@ -368,6 +383,7 @@ ii libgcc-13.2.0_2                            GNU Compiler Collection - GCC libr
 ii libgcc-32bit-13.2.0_2                      GNU Compiler Collection - GCC library (32bit)
 ii libgcc-devel-13.2.0_2                      GNU Compiler Collection - GCC library - development files
 ii libgcrypt-1.10.2_1                         GNU cryptographic library
+ii libgfortran-13.2.0_2                       GNU Compiler Collection - Fortran library
 ii libgirepository-1.80.1_1                   Library for handling GObject introspection data (runtime library)
 ii libgit2-1.7.2_1                            Git linkable library
 ii libglapi-24.0.5_1                          Free implementation of the GL API - shared library
@@ -379,9 +395,10 @@ ii libglvnd-devel-1.7.0_1                     GL Vendor-Neutral Dispatch library
 ii libgme-0.6.3_1                             Video game music file emulation/playback library
 ii libgomp-13.2.0_2                           GNU Compiler Collection - OpenMP v4.0 library
 ii libgpg-error-1.47_1                        Library for error values used by GnuPG component
-ii libgpgme-1.23.2_1                          GnuPG Made Easy - library
+ii libgpgme-1.23.2_3                          GnuPG Made Easy - library
 ii libgpm-1.20.7_10                           Mouse server for the console and xterm - runtime library
 ii libgs-10.02.1_1                            Interpreter for the PostScript language - runtime shared library
+ii libgsf-1.14.52_1                           Structured File Library
 ii libgsm-1.0.22_2                            GSM 06.10 lossy speech compression
 ii libgtop-2.41.3_1                           Library to retrieve system information, used in GNOME
 ii libgudev-238_1                             Library providing GObject bindings for libudev
@@ -454,7 +471,10 @@ ii libnvme-1.8_1                              C Library for NVM Express on Linux
 ii libogg-1.3.5_1                             Ogg bitstream file format library
 ii libopenal-1.23.1_1                         Cross-platform 3D audio library
 ii libopenbox-3.6.1_5                         Openbox runtime shared libraries
+ii libopencv-4.6.0_6                          Computer vision and machine learning software library - library files
+ii libopenexr-3.2.1_1                         High dynamic-range (HDR) image file format - runtime libraries
 ii libopenjpeg2-2.5.2_1                       Open-source JPEG 2000 codec written in C language (Version 2) - library files
+ii libopenraw-0.1.3_2                         Library for camera RAW files decoding
 ii libpaper-1.1.29_1                          Library for handling paper characteristics
 ii libparted-3.6_1                            GNU Parted disk partition resizing program - shared library
 ii libpcap-1.10.4_1                           System-independent interface for user-level packet capture
@@ -467,12 +487,15 @@ ii libpipewire-1.0.5_1                        Server and user space API to deal 
 ii libplist-2.2.0_4                           Apple Property List library
 ii libpng-1.6.43_1                            Library for manipulating PNG images
 ii libpng-devel-1.6.43_1                      Library for manipulating PNG images - development files
+ii libpoppler-23.12.0_1                       PDF rendering library - poppler runtime library
+ii libpostproc-4.4.4_7                        FFmpeg video postprocessing library
 ii libproxy-0.4.18_3                          Library handling all the details of proxy configuration
 ii libpsl-0.21.5_1                            Public Suffix List library functions
 ii libpsl-devel-0.21.5_1                      Public Suffix List library functions - development files
 ii libpulseaudio-16.1_2                       Featureful, general-purpose sound server - shared libraries
 ii libqt6shadertools-6.6.0_1                  Cross-platform application and UI framework - shadertools - libraries
 ii libraptor-2.0.16_1                         Raptor RDF Syntax Library - Runtime libraries
+ii libraw-0.21.2_1                            Raw image decoder library
 ii libreadline8-8.2.010_1                     GNU Readline Library
 ii libreadline8-32bit-8.2.010_1               GNU Readline Library (32bit)
 ii librist-0.2.7_1                            Reliable Internet Stream Transport (RIST)
@@ -514,7 +537,8 @@ ii libstdc++-13.2.0_2                         GNU Compiler Collection - Standard
 ii libstdc++-32bit-13.2.0_2                   GNU Compiler Collection - Standard C++ Library (32bit)
 ii libstdc++-devel-13.2.0_2                   GNU Compiler Collection - Standard C++ Library - development files
 ii libsvt-av1-1.7.0_1                         AV1-compliant encoder/decoder library core - library files
-ii libswresample-4.4.4_6                      FFmpeg video resampling library
+ii libswresample-4.4.4_7                      FFmpeg video resampling library
+ii libswscale-4.4.4_7                         FFmpeg video scaling library
 ii libtasn1-4.19.0_1                          ASN.1 structure parser library
 ii libtasn1-devel-4.19.0_1                    ASN.1 structure parser library - development files
 ii libtdb-1.4.9_2                             Trivial Database, similar to GDBM but allows simultaneous commits - shared libraries
@@ -537,6 +561,7 @@ ii libuv-1.46.0_1                             Multi-platform support library wit
 ii libva-2.20.0_1                             Video Acceleration (VA) API
 ii libvala-0.56.16_2                          Compiler for the GObject type system - vala shared library
 ii libvdpau-1.5_1                             Video Decode and Presentation API for UNIX
+ii libvidstab-1.1.0_2                         Video stabilization library
 ii libvisual-0.4.2_1                          Abstraction library for audio visualisation plugins
 ii libvoikko-4.3.2_1                          Free linguistic software and data for Finnish
 ii libvorbis-1.3.7_1                          The Vorbis General Audio Compression Codec
@@ -621,6 +646,7 @@ ii mit-krb5-libs-1.21.2_3                     MIT Kerberos 5 implementation - ru
 ii mkfontscale-1.2.2_1                        X11 Scalable Font Index Generator
 ii mobile-broadband-provider-info-20220511_1  Database of mobile broadband service providers
 ii moby-26.1.2_1                              Container engine for the Docker ecosystem
+ii modrinth-app-0.7.1_1                       An unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.
 ii mpfr-4.2.1_1                               Library for multiple-precision floating-point computations
 ii mpfr-devel-4.2.1_1                         Library for multiple-precision floating-point computations - development files
 ii msgpack-4.0.0_1                            Binary-based efficient object serialization library for C
@@ -643,6 +669,7 @@ ii newt-0.52.21_7                             Library for color text mode, widge
 ii nghttp2-1.61.0_1                           HTTP/2 C Library
 ii nitrogen-1.6.1_4                           Background browser and setter for X with support for Xinerama
 ii nodejs-18.19.1_1                           Evented I/O for V8 javascript
+ii nomacs-3.17.2287_2                         Simple yet powerful Qt imageviewer
 ii noto-fonts-emoji-2.042_1                   Google Noto Emoji Fonts
 ii npth-1.7_2                                 New portable threads library
 ii nspr-4.35_1                                NetScape Portable Runtime
@@ -657,6 +684,7 @@ ii nvidia-libs-32bit-550.78_1                 NVIDIA drivers for linux - common 
 ii obconf-2.0.4_7                             GTK-based configuration tool for the Openbox windowmanager
 ii ocl-icd-2.3.2_2                            Generic OpenCL ICD loader/demultiplexer
 ii oniguruma-6.9.9_1                          Multi-charset regular expressions library
+ii openblas-0.3.27_1                          Optimized BLAS (Basic Linear Algebra Subprograms) based on GotoBLAS2
 ii openbox-3.6.1_5                            Standards compliant, fast, light-weight, extensible window manager
 ii openjdk-common-2_1                         Common files for OpenJDK packages
 ii openjdk11-11.0.22+6_1                      OpenJDK Java Development Kit (version 11)
@@ -710,6 +738,8 @@ ii pkg-config-0.29.2_3                        System for managing library compil
 ii pnpm-9.0.5_1                               Fast, disk space efficient package manager
 ii polkit-121_2                               Authorization Toolkit
 ii pollymc-8.0_1                              DRM-free Prism Launcher fork with support for custom auth servers.
+ii poppler-data-0.4.12_1                      Encoding data for the poppler PDF rendering library
+ii poppler-glib-23.12.0_1                     PDF rendering library - GLib bindings
 ii popt-1.19_1                                Command line option parsing library
 ii postgresql-client-16_1                     Client frontends programs for PostgreSQL
 ii postgresql-libs-16.2_1                     PostgreSQL shared libraries
@@ -728,10 +758,12 @@ ii python3-setuptools-69.5.1_1                Easily build and distribute Python
 ii python3-six-1.16.0_4                       Python 2 and 3 compatibility utilities (Python3)
 ii python3-tkinter-3.12.3_1                   Python programming language - GUI toolkit for Python3
 ii python3-xdg-0.28_4                         Python3 library to access freedesktop.org standards
+ii qt5-concurrent-5.15.11+20231124_3          Cross-platform application and UI framework (QT5) - Concurrency
 ii qt5-core-5.15.11+20231124_3                Cross-platform application and UI framework (QT5) - Core
 ii qt5-dbus-5.15.11+20231124_3                Cross-platform application and UI framework (QT5) - DBus
 ii qt5-gui-5.15.11+20231124_3                 Cross-platform application and UI framework (QT5) - Gui
 ii qt5-network-5.15.11+20231124_3             Cross-platform application and UI framework (QT5) - Network
+ii qt5-printsupport-5.15.11+20231124_3        Cross-platform application and UI framework (QT5) - Print Support
 ii qt5-svg-5.15.11+20231124_3                 Cross-platform application and UI framework (QT5) - Svg component
 ii qt5-widgets-5.15.11+20231124_3             Cross-platform application and UI framework (QT5) - Widgets
 ii qt6-base-6.6.0_1                           Cross-platform application and UI framework (QT6)
@@ -748,6 +780,7 @@ ii qt6-sql-6.6.0_1                            Cross-platform application and UI 
 ii qt6-svg-6.6.0_1                            Cross-platform application and UI framework (QT6) - qt6-svg component
 ii qt6-widgets-6.6.0_1                        Cross-platform application and UI framework (QT6) - Widgets
 ii qt6-xml-6.6.0_1                            Cross-platform application and UI framework (QT6) - Xml
+ii quazip-1.4_1                               Qt5/C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package
 ii rav1e-0.6.6_2                              Fastest and safest AV1 encoder
 ii re2-2023.03.01_1                           Efficient, principled regular expression library
 ii removed-packages-0.1.20240418_1            Uninstalls packages removed from repository
@@ -798,6 +831,7 @@ ii tree-sitter-0.22.6_1                       Parser generator tool and incremen
 ii trousers-0.3.15_2                          Trusted Computing Software Stack for the TPM
 ii trousers-devel-0.3.15_2                    Trusted Computing Software Stack for the TPM - development files
 ii tslib-1.22_1                               Touchscreen access library
+ii tumbler-4.18.2_2                           D-Bus Thumbnailer service
 ii twolame-0.4.0_2                            Optimised MPEG Audio Layer 2 (MP2) encoder
 ii tzdata-2024a_1                             Time zone and daylight-saving time data
 ii udisks2-2.10.1_1                           Disk Management Service, version 2
@@ -812,6 +846,7 @@ ii vala-0.56.16_2                             Compiler for the GObject type syst
 ii vala-devel-0.56.16_2                       Compiler for the GObject type system - vala development files
 ii vesktop-1.5.2_1                            Vesktop gives you the performance of web Discord and the comfort of Discord Desktop
 ii visual-studio-code-1.87.2_1                Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
+ii vmaf-2.3.1_1                               Perceptual video quality assessment algorithm developed by Netflix
 ii void-artwork-20221013_1                    Void Linux artwork
 ii void-docs-2024.03.14_1                     Documentation for Void Linux
 ii void-docs-browse-2024.03.14_1              Documentation for Void Linux - browsing utilities
