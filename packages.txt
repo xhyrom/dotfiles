@@ -368,6 +368,7 @@ ii libgcc-13.2.0_2                            GNU Compiler Collection - GCC libr
 ii libgcc-32bit-13.2.0_2                      GNU Compiler Collection - GCC library (32bit)
 ii libgcc-devel-13.2.0_2                      GNU Compiler Collection - GCC library - development files
 ii libgcrypt-1.10.2_1                         GNU cryptographic library
+ii libgfortran-13.2.0_2                       GNU Compiler Collection - Fortran library
 ii libgirepository-1.80.1_1                   Library for handling GObject introspection data (runtime library)
 ii libgit2-1.7.2_1                            Git linkable library
 ii libglapi-24.0.5_1                          Free implementation of the GL API - shared library
@@ -617,6 +618,7 @@ ii mesa-dri-24.0.5_1                          Mesa DRI drivers
 ii mesa-dri-32bit-24.0.5_1                    Mesa DRI drivers (32bit)
 ii mesa-opencl-24.0.5_1                       Mesa implementation of OpenCL (r600+ only)
 ii mesa-vulkan-radeon-24.0.5_1                Mesa Radeon Vulkan driver
+ii minizip-1.3_1                              Zip file manipulation library
 ii mit-krb5-libs-1.21.2_3                     MIT Kerberos 5 implementation - runtime libraries
 ii mkfontscale-1.2.2_1                        X11 Scalable Font Index Generator
 ii mobile-broadband-provider-info-20220511_1  Database of mobile broadband service providers
@@ -648,6 +650,7 @@ ii noto-fonts-emoji-2.042_1                   Google Noto Emoji Fonts
 ii npth-1.7_2                                 New portable threads library
 ii nspr-4.35_1                                NetScape Portable Runtime
 ii nss-3.100_1                                Mozilla Network Security Services
+ii ntfs-3g-2022.10.3_1                        Stable Read/Write NTFS Driver in userspace
 ii nvi-1.81.6_19                              Berkeley Vi Editor
 ii nvidia-550.78_1                            NVIDIA drivers for linux - Libraries and Utilities
 ii nvidia-dkms-550.78_1                       NVIDIA drivers for linux - DKMS kernel module
@@ -658,6 +661,7 @@ ii nvidia-libs-32bit-550.78_1                 NVIDIA drivers for linux - common 
 ii obconf-2.0.4_7                             GTK-based configuration tool for the Openbox windowmanager
 ii ocl-icd-2.3.2_2                            Generic OpenCL ICD loader/demultiplexer
 ii oniguruma-6.9.9_1                          Multi-charset regular expressions library
+ii openblas-0.3.27_1                          Optimized BLAS (Basic Linear Algebra Subprograms) based on GotoBLAS2
 ii openbox-3.6.1_5                            Standards compliant, fast, light-weight, extensible window manager
 ii openjdk-common-2_1                         Common files for OpenJDK packages
 ii openjdk11-11.0.22+6_1                      OpenJDK Java Development Kit (version 11)
@@ -668,6 +672,8 @@ ii openjdk21-21.0.3+9_1                       OpenJDK Java Development Kit (vers
 ii openjdk21-jre-21.0.3+9_1                   OpenJDK Java Development Kit (version 21) - runtime components
 ii openjdk8-8u332b05_2                        OpenJDK Java Development Kit (version 8)
 ii openjdk8-jre-8u332b05_2                    OpenJDK Java Development Kit (version 8) - runtime components
+ii openrazer-daemon-3.7.0_1                   Userspace daemon that abstracts access to the kernel driver
+ii openrazer-driver-dkms-3.7.0_1              Kernel driver for Razer devices (DKMS-variant)
 ii openresolv-3.13.2_1                        Management framework for resolv.conf
 ii openssh-9.7p1_1                            OpenSSH free Secure Shell (SSH) client and server implementation
 ii openssl-3.3.0_1                            Toolkit for Secure Sockets Layer and Transport Layer Security
@@ -710,6 +716,7 @@ ii pixman-devel-0.43.4_1                      Library of low-level pixel manipul
 ii pkg-config-0.29.2_3                        System for managing library compile/link flags
 ii pnpm-9.0.5_1                               Fast, disk space efficient package manager
 ii polkit-121_2                               Authorization Toolkit
+ii polychromatic-0.8.3_1                      RGB lighting management software
 ii popt-1.19_1                                Command line option parsing library
 ii postgresql-client-16_1                     Client frontends programs for PostgreSQL
 ii postgresql-libs-16.2_1                     PostgreSQL shared libraries
@@ -718,22 +725,47 @@ ii procps-ng-4.0.4_2                          Utilities for monitoring your syst
 ii public-suffix-2024.03.28_1                 Public Suffix List
 ii pulseaudio-utils-16.1_2                    Featureful, general-purpose sound server - utilities
 ii python3-3.12.3_1                           Python programming language (3.12 series)
+ii python3-PyQt5-5.15.10_1                    Python 3 bindings for the Qt5 toolkit
+ii python3-PyQt5-svg-5.15.10_1                Python 3 bindings for the Qt5 toolkit - svg module
+ii python3-PyQt5-webchannel-5.15.10_1         Python 3 bindings for the Qt5 toolkit - webchannel module
+ii python3-PyQt5-webengine-5.15.6_3           Python 3 bindings for the Qt5 toolkit - webengine module
 ii python3-atspi-2.38.0_6                     Python2 bindings for AT-SPI
 ii python3-brlapi-6.4_11                      Braille display driver for Linux/Unix - Python3 bindings
 ii python3-cairo-1.26.0_1                     Python3 bindings for the cairo graphics library
+ii python3-charset-normalizer-3.3.2_1         Encoding and language detection
+ii python3-colorama-0.4.6_2                   Cross-platform colored terminal text (Python3)
+ii python3-colour-0.1.5_2                     Python library, converts and manipulates various color representation
+ii python3-daemonize-2.5.0_8                  Daemonize is a library for writing system daemons in Python (Python3)
 ii python3-dbus-1.3.2_2                       D-Bus Python3 bindings
 ii python3-devel-3.12.3_1                     Python programming language (3.12 series) - development files
 ii python3-gobject-3.48.1_1                   Python3 bindings for GObject
+ii python3-idna-3.6_1                         Internationalized Domain Names in Applications (IDNA) for Python3
+ii python3-numpy-1.26.4_1                     Fast and sophisticated array facility to Python3
+ii python3-openrazer-3.7.0_1                  Python library for accessing the Razer daemon from Python
+ii python3-pyudev-0.24.0_2                    Python bindings to libudev (Python3)
+ii python3-requests-2.31.0_2                  Python3 HTTP library for human beings
+ii python3-setproctitle-1.3.3_1               Python3 library to allow customization of the process title
 ii python3-setuptools-69.5.1_1                Easily build and distribute Python3 packages
+ii python3-sip-PyQt5-12.13.0_2                Python 3 PyQt5 SIP bindings with C and C++
 ii python3-six-1.16.0_4                       Python 2 and 3 compatibility utilities (Python3)
 ii python3-tkinter-3.12.3_1                   Python programming language - GUI toolkit for Python3
+ii python3-urllib3-1.26.12_2                  HTTP library with thread-safe connection pooling
 ii python3-xdg-0.28_4                         Python3 library to access freedesktop.org standards
 ii qt5-core-5.15.11+20231124_3                Cross-platform application and UI framework (QT5) - Core
 ii qt5-dbus-5.15.11+20231124_3                Cross-platform application and UI framework (QT5) - DBus
+ii qt5-declarative-5.15.11+20231124_3         Cross-platform application and UI framework (QT5) - Declarative component
 ii qt5-gui-5.15.11+20231124_3                 Cross-platform application and UI framework (QT5) - Gui
+ii qt5-location-5.15.11+20231124_3            Cross-platform application and UI framework (QT5) - Location and Positioning components
 ii qt5-network-5.15.11+20231124_3             Cross-platform application and UI framework (QT5) - Network
+ii qt5-printsupport-5.15.11+20231124_3        Cross-platform application and UI framework (QT5) - Print Support
+ii qt5-serialport-5.15.11+20231124_3          Cross-platform application and UI framework (QT5) - Serial port component
+ii qt5-sql-5.15.11+20231124_3                 Cross-platform application and UI framework (QT5) - Sql
 ii qt5-svg-5.15.11+20231124_3                 Cross-platform application and UI framework (QT5) - Svg component
+ii qt5-test-5.15.11+20231124_3                Cross-platform application and UI framework (QT5) - Test
+ii qt5-webchannel-5.15.11+20231124_3          Cross-platform application and UI framework (QT5) - WebChannel component
+ii qt5-webengine-5.15.16_1                    Cross-platform application and UI framework (QT5) - WebEngine component
 ii qt5-widgets-5.15.11+20231124_3             Cross-platform application and UI framework (QT5) - Widgets
+ii qt5-xml-5.15.11+20231124_3                 Cross-platform application and UI framework (QT5) - Xml
 ii qt6-base-6.6.0_1                           Cross-platform application and UI framework (QT6)
 ii qt6-core-6.6.0_1                           Cross-platform application and UI framework (QT6) - Core
 ii qt6-dbus-6.6.0_1                           Cross-platform application and UI framework (QT6) - DBus
