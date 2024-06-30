@@ -21,9 +21,6 @@
   <item label="Modrinth">
     <action name="Execute"><command>modrinth-app</command></action>
   </item>
-  <item label="Lutris">
-    <action name="Execute"><command>flatpak run net.lutris.Lutris</command></action>
-  </item>
 </menu>
 
 <menu id="apps-term-menu" label="Terminals">
