@@ -1,7 +1,7 @@
 tint2 &
 xcompmgr &
 nitrogen --restore
-xrandr --output eDP --auto --output HDMI-A-0 --mode 1920x1080 --rate 144 --primary --left-of eDP
+xrandr --output eDP-1 --auto --output HDMI-1 --mode 1920x1080 --rate 144 --primary --left-of eDP-1
 xbindkeys
-xinput --set-prop 13 "libinput Accel Speed" -0.5
+xinput --set-prop "pointer:Razer Razer DeathAdder Essential" "libinput Accel Speed" -0.85
 eval $(dbus-launch --sh-syntax --exit-with-session)
