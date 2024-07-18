@@ -81,7 +81,6 @@ ii findutils-4.9.0_1                          GNU Find Utilities
 ii flatpak-1.15.8_1                           Application sandboxing and distribution framework
 ii flite-2.2_1                                Lightweight speech synthesis engine
 ii font-alias-1.0.5_1                         Standard aliases for X11 PCF fonts
-ii font-firacode-6.2_1                        FiraCode: monospaced font with programming ligatures
 ii font-latinmodern-math-1.959_1              Improved version of Computer Modern math font as used in LaTeX
 ii font-misc-misc-1.1.3_1                     Standard X11 fixed PCF fonts
 ii font-util-1.4.1_1                          Tools for truncating and subseting of ISO10646-1 BDF fonts
