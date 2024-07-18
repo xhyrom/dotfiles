@@ -81,6 +81,7 @@ ii findutils-4.9.0_1                          GNU Find Utilities
 ii flatpak-1.15.8_1                           Application sandboxing and distribution framework
 ii flite-2.2_1                                Lightweight speech synthesis engine
 ii font-alias-1.0.5_1                         Standard aliases for X11 PCF fonts
+ii font-firacode-6.2_1                        FiraCode: monospaced font with programming ligatures
 ii font-latinmodern-math-1.959_1              Improved version of Computer Modern math font as used in LaTeX
 ii font-misc-misc-1.1.3_1                     Standard X11 fixed PCF fonts
 ii font-util-1.4.1_1                          Tools for truncating and subseting of ISO10646-1 BDF fonts
@@ -110,6 +111,7 @@ ii glibc-locales-2.39_3                       GNU C library - locale data files
 ii glibmm2.68-2.78.0_1                        C++ bindings for GLib
 ii gmp-6.3.0_1                                Library for arbitrary precision arithmetic
 ii gmp-devel-6.3.0_1                          Library for arbitrary precision arithmetic - development files
+ii gnome-desktop-44.0_1                       GNOME desktop management utilities
 ii gnome-keyring-46.1_1                       GNOME password and secret manager
 ii gnupg-2.4.5_1                              GNU Privacy Guard (2.x)
 ii gnutls-3.8.5_1                             GNU Transport Layer Security library
@@ -194,6 +196,7 @@ ii libXtst-1.2.4_1                            X Tst Library
 ii libXv-1.0.12_1                             Xv Extension library
 ii libXvMC-1.0.13_1                           XVideo Motion Compensation Library
 ii libXxf86vm-1.1.5_1                         Library for the XFree86-VidMode X extension
+ii libadwaita-1.5.2_1                         GTK4 building blocks for modern adaptive applications
 ii libaio-0.3.113_1                           Linux-native asynchronous I/O facility (aio) library
 ii libaom-3.8.1_1                             AV1 Codec library implementation
 ii libarchive-3.7.4_1                         Library to read/write several different streaming archive formats
@@ -416,6 +419,7 @@ ii libxcvt-0.1.2_1                            VESA CVT standard timing modelines
 ii libxkbcommon-1.7.0_1                       Library to handle keyboard descriptions
 ii libxkbcommon-x11-1.7.0_1                   Library to handle keyboard descriptions - X11 support
 ii libxkbfile-1.1.3_1                         Xkbfile Library from X.org
+ii libxkbregistry-1.7.0_1                     XKB API to query available rules, models, layouts, variants and options
 ii libxklavier-5.4_3                          Library providing high-level API for X Keyboard Extension
 ii libxml2-2.12.6_1                           Library providing XML and HTML support
 ii libxml2-devel-2.12.6_1                     Library providing XML and HTML support - development files
@@ -640,6 +644,9 @@ ii xcb-util-wm-0.4.2_1                        Utility libraries for XC Binding -
 ii xclip-0.13_2                               Command line interface to the X11 clipboard
 ii xcompmgr-1.1.9_1                           Composite Window-effects manager for X.org
 ii xdg-dbus-proxy-0.1.5_1                     Filtering proxy for D-Bus connections
+ii xdg-desktop-portal-1.18.4_1                Portal frontend service for Flatpak
+ii xdg-desktop-portal-gnome-46.2_1            GNOME portal backend for xdg-desktop-portal
+ii xdg-desktop-portal-gtk-1.15.1_1            Portal backend service for Flatpak using GTK+
 ii xdg-utils-1.2.1_1                          Tools to assist applications with various desktop integration tasks
 ii xf86-input-evdev-2.10.6_2                  Xorg event device input driver
 ii xf86-input-libinput-1.4.0_1                Generic input driver for the X.Org server based on libinput
