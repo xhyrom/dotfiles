@@ -11,7 +11,9 @@ ii acl-2.3.2_1                                Access Control List filesystem sup
 ii acpid-2.0.34_3                             ACPI Daemon (acpid) With Netlink Support
 ii acpilight-1.2_2                            Backward-compatibile xbacklight replacement
 ii adwaita-icon-theme-46.2_1                  Theme consisting of a set of icons for GTK+
-ii alsa-lib-1.2.11_1                          Advanced Linux Sound Architecture (ALSA) library
+ii alsa-lib-1.2.12_1                          Advanced Linux Sound Architecture (ALSA) library
+ii alsa-pipewire-1.2.1_1                      Server and user space API to deal with multimedia pipelines - ALSA client library
+ii alsa-utils-1.2.12_1                        Advanced Linux Sound Architecture (ALSA) utilities
 ii at-spi2-atk-2.52.0_1                       Assistive Technology Service Provider Interface - ATK bridge
 ii at-spi2-core-2.52.0_1                      Assistive Technology Service Provider Interface
 ii atk-2.52.0_1                               Set of interfaces for accessibility
@@ -33,12 +35,11 @@ ii brotli-devel-1.1.0_1                       Generic-purpose lossless compressi
 ii btrfs-progs-6.5.1_1                        Btrfs filesystem utilities
 ii bubblewrap-0.9.0_1                         Unprivileged sandboxing tool
 ii bzip2-1.0.8_2                              Freely available, patent free, high-quality data compressor
-ii c-ares-1.32.1_1                            Library for asynchronous DNS requests
+ii c-ares-1.32.2_1                            Library for asynchronous DNS requests
 ii ca-certificates-20240203+3.101.1_1         Common CA certificates for SSL/TLS from Mozilla
 ii cairo-1.18.0_1                             Vector graphics library with cross-device output support
 ii cairomm1.16-1.16.1_1                       C++ bindings to Cairo vector graphics library
 ii cantarell-fonts-0.303.1_1                  Cantarell family of TrueType fonts
-ii cargo-1.79.0_1                             Rust package manager
 ii celt-0.11.3_3                              An audio codec for use in low-delay speech and audio communication
 ii chromaprint-1.5.1_1                        Library that extracts fingerprints from any audio source
 ii coreutils-9.4_1                            GNU core utilities
@@ -101,19 +102,19 @@ ii gdk-pixbuf-2.42.10_2                       Image loading library for The GTK+
 ii giflib-5.2.2_1                             Library to handle, display and manipulate GIF images
 ii gir-freedesktop-1.80.1_1                   Introspection data for some FreeDesktop components
 ii git-2.45.2_1                               Git Tree History Storage Tool
-ii github-cli-2.52.0_1                        GitHub CLI tool
+ii github-cli-2.53.0_1                        GitHub CLI tool
 ii glib-2.80.3_1                              GNU library of C routines
 ii glib-networking-2.80.0_1                   Network-related giomodules for glib
-ii glibc-2.39_3                               GNU C library
-ii glibc-devel-2.39_3                         GNU C library - development files
-ii glibc-locales-2.39_3                       GNU C library - locale data files
+ii glibc-2.39_4                               GNU C library
+ii glibc-devel-2.39_4                         GNU C library - development files
+ii glibc-locales-2.39_4                       GNU C library - locale data files
 ii glibmm2.68-2.78.0_1                        C++ bindings for GLib
 ii gmp-6.3.0_1                                Library for arbitrary precision arithmetic
 ii gmp-devel-6.3.0_1                          Library for arbitrary precision arithmetic - development files
 ii gnome-desktop-44.0_1                       GNOME desktop management utilities
 ii gnome-keyring-46.1_1                       GNOME password and secret manager
 ii gnupg-2.4.5_1                              GNU Privacy Guard (2.x)
-ii gnutls-3.8.5_1                             GNU Transport Layer Security library
+ii gnutls-3.8.6_1                             GNU Transport Layer Security library
 ii go-1.22.5_1                                Go Programming Language
 ii google-chrome-125.0.6422.141_1             Attempt at creating a safer, faster, and more stable browser
 ii gotop-4.2.0_3                              Terminal based graphical activity monitor
@@ -216,7 +217,7 @@ ii libb2-0.98.1_1                             BLAKE2 cryptographic hash function
 ii libblkid-2.40.1_1                          Library to handle device identification
 ii libbluetooth-5.76_1                        Library to use the Bluez Linux Bluetooth Stack
 ii libbluray-1.3.4_1                          Library to access Blu-Ray disks for video playback
-ii libbpf-1.4.3_1                             Library for working with (e)BPF
+ii libbpf-1.4.5_1                             Library for working with (e)BPF
 ii libbs2b-3.1.0_3                            Audiofilter for headphones
 ii libcaca-0.99.beta19_13                     Graphics library that outputs text instead of pixels
 ii libcamera-0.2.0_1                          Complex camera support library for Linux, Android, and ChromeOS
@@ -240,7 +241,7 @@ ii libde265-1.0.12_1                          Open h.265 video codec implementat
 ii libdebuginfod-0.190_1                      Utilities to handle ELF object files - debuginfod library
 ii libdecor-0.1.1_1                           Client-side decorations library for Wayland client
 ii libdrm-2.4.122_1                           Userspace interface to kernel DRM services
-ii libedit-20230828.3.1_2                     Port of the NetBSD Command Line Editor Library
+ii libedit-20240517.3.1_1                     Port of the NetBSD Command Line Editor Library
 ii libefivar-39_1                             Library to manipulate EFI variables
 ii libelf-0.190_1                             Utilities to handle ELF object files - runtime library
 ii libelogind-252.9_2                         Standalone logind fork - elogind library
@@ -336,7 +337,7 @@ ii libpcap-1.10.4_1                           System-independent interface for u
 ii libpciaccess-0.18.1_1                      X11 PCI Access library
 ii libpcre-8.45_3                             Perl Compatible Regular Expressions - shared libraries
 ii libpcre2-10.42_1                           Perl Compatible Regular Expressions (2nd version) - shared libraries
-ii libpipewire-1.2.0_1                        Server and user space API to deal with multimedia pipelines - pipewire library
+ii libpipewire-1.2.1_1                        Server and user space API to deal with multimedia pipelines - pipewire library
 ii libplist-2.2.0_4                           Apple Property List library
 ii libpng-1.6.43_1                            Library for manipulating PNG images
 ii libproxy-0.4.18_3                          Library handling all the details of proxy configuration
@@ -363,14 +364,13 @@ ii libsndio-1.9.0_1                           Small audio and MIDI framework par
 ii libsodium-1.0.20_1                         Modern and easy-to-use crypto library
 ii libsord-0.16.16_1                          Lightweight C library for storing RDF data in memory - Runtime library
 ii libsoup-2.74.3_1                           HTTP library implementation in C
-ii libsoup3-3.4.2_1                           HTTP library implementation in C
 ii libsoxr-0.1.3_2                            SoX resampler library
-ii libspa-alsa-1.2.0_1                        Server and user space API to deal with multimedia pipelines - alsa plugins
-ii libspa-audioconvert-1.2.0_1                Server and user space API to deal with multimedia pipelines - audioconvert plugins
-ii libspa-audiomixer-1.2.0_1                  Server and user space API to deal with multimedia pipelines - audiomixer plugins
-ii libspa-bluetooth-1.2.0_1                   Server and user space API to deal with multimedia pipelines - bluetooth plugins
-ii libspa-control-1.2.0_1                     Server and user space API to deal with multimedia pipelines - control plugins
-ii libspa-v4l2-1.2.0_1                        Server and user space API to deal with multimedia pipelines - v4l2 plugins
+ii libspa-alsa-1.2.1_1                        Server and user space API to deal with multimedia pipelines - alsa plugins
+ii libspa-audioconvert-1.2.1_1                Server and user space API to deal with multimedia pipelines - audioconvert plugins
+ii libspa-audiomixer-1.2.1_1                  Server and user space API to deal with multimedia pipelines - audiomixer plugins
+ii libspa-bluetooth-1.2.1_1                   Server and user space API to deal with multimedia pipelines - bluetooth plugins
+ii libspa-control-1.2.1_1                     Server and user space API to deal with multimedia pipelines - control plugins
+ii libspa-v4l2-1.2.1_1                        Server and user space API to deal with multimedia pipelines - v4l2 plugins
 ii libspectre-0.2.12_1                        Small library for rendering Postscript documents
 ii libspeex-1.2.1_1                           Free codec for free speech - shared libraries
 ii libsrt-1.5.3_1                             Secure, Reliable, Transport - development files
@@ -395,7 +395,7 @@ ii libusb-1.0.27_1                            Library which allows userspace acc
 ii libusbmuxd-2.0.2_1                         USB Multiplex Daemon library
 ii libuuid-2.40.1_1                           UUID library
 ii libuv-1.46.0_1                             Multi-platform support library with a focus on asynchronous I/O
-ii libva-2.21.0_1                             Video Acceleration (VA) API
+ii libva-2.22.0_1                             Video Acceleration (VA) API
 ii libvdpau-1.5_1                             Video Decode and Presentation API for UNIX
 ii libvisual-0.4.2_1                          Abstraction library for audio visualisation plugins
 ii libvoikko-4.3.2_1                          Free linguistic software and data for Finnish
@@ -441,8 +441,8 @@ ii linux-firmware-intel-20240709_1            Binary firmware blobs for the Linu
 ii linux-firmware-network-20240709_1          Binary firmware blobs for the Linux kernel - network
 ii linux-firmware-nvidia-20240709_1           Binary firmware blobs for the Linux kernel NVIDIA GPU microcode
 ii linux-headers-6.6_1                        Linux kernel headers meta package
-ii linux6.6-6.6.39_1                          Linux kernel and modules (6.6 series)
-ii linux6.6-headers-6.6.39_1                  Linux kernel and modules (6.6 series) - source headers for 3rd party modules
+ii linux6.6-6.6.41_1                          Linux kernel and modules (6.6 series)
+ii linux6.6-headers-6.6.41_1                  Linux kernel and modules (6.6 series) - source headers for 3rd party modules
 ii lowdown-1.1.0_1                            Simple markdown translator
 ii lsd-1.1.2_3                                Next gen ls command with lots of pretty colors and awesome icons
 ii lsof-4.99.3_1                              LiSt Open Files
@@ -529,7 +529,7 @@ ii perl-5.38.2_3                              Practical Extraction and Report La
 ii perl-Authen-SASL-2.1700_1                  Authen::SASL -- SASL authentication framework
 ii perl-Convert-BinHex-1.125_3                Perl module to extract data from Macintosh BinHex files
 ii perl-Digest-HMAC-1.04_1                    Perl interface to HMAC message-digest algorithms
-ii perl-IO-Socket-SSL-2.086_1                 IO::Socket::SSL -- SSL sockets with IO::Socket interface
+ii perl-IO-Socket-SSL-2.088_1                 IO::Socket::SSL -- SSL sockets with IO::Socket interface
 ii perl-IO-stringy-2.113_2                    IO::stringy -- I/O on in-core objects like strings/arrays
 ii perl-MIME-tools-5.515_1                    MIME-tools -- Parses streams to create MIME entities
 ii perl-MailTools-2.21_3                      MailTools -- Various e-mail related modules
@@ -539,7 +539,7 @@ ii perl-TimeDate-2.33_2                       TimeDate -- Date formating subrout
 ii perl-URI-5.21_1                            Perl Uniform Resource Identifiers class (URI, RFC 2396)
 ii pick-4.0.0_1                               Fuzzy search tool for the command-line
 ii pinentry-1.3.0_1                           PIN or passphrase entry dialogs for GnuPG
-ii pipewire-1.2.0_1                           Server and user space API to deal with multimedia pipelines
+ii pipewire-1.2.1_1                           Server and user space API to deal with multimedia pipelines
 ii pixman-0.43.4_1                            Library of low-level pixel manipulation routines
 ii pkg-config-0.29.2_3                        System for managing library compile/link flags
 ii polkit-124_1                               Authorization Toolkit
@@ -553,7 +553,7 @@ ii python3-cairo-1.26.0_1                     Python3 bindings for the cairo gra
 ii python3-dbus-1.3.2_2                       D-Bus Python3 bindings
 ii python3-devel-3.12.4_1                     Python programming language (3.12 series) - development files
 ii python3-gobject-3.48.2_1                   Python3 bindings for GObject
-ii python3-setuptools-70.2.0_1                Easily build and distribute Python3 packages
+ii python3-setuptools-71.0.3_1                Easily build and distribute Python3 packages
 ii python3-tkinter-3.12.4_1                   Python programming language - GUI toolkit for Python3
 ii python3-xdg-0.28_4                         Python3 library to access freedesktop.org standards
 ii qt6-base-6.7.2_1                           Cross-platform application and UI framework (QT6)
@@ -576,8 +576,7 @@ ii removed-packages-0.1.20240625_2            Uninstalls packages removed from r
 ii run-parts-4.11.2_2                         Run scripts or programs in a directory
 ii runit-2.1.2_15                             UNIX init scheme with service supervision
 ii runit-void-20231124_5                      Void Linux runit scripts
-ii rust-1.79.0_1                              Safe, concurrent, practical systems language
-ii rust-std-1.79.0_1                          Safe, concurrent, practical systems language - standard library
+ii rustup-1.27.1_1                            Rust toolchain installer
 ii sbc-2.0_1                                  Bluetooth Subband Codec (SBC) library
 ii scrot-1.11.1_1                             Simple command-line screenshot utility for X
 ii sed-4.9_1                                  The GNU stream editor
@@ -621,7 +620,7 @@ ii void-docs-2024.03.14_1                     Documentation for Void Linux
 ii void-docs-browse-2024.03.14_1              Documentation for Void Linux - browsing utilities
 ii void-repo-nonfree-9_6                      Void Linux drop-in file for the nonfree repository
 ii vulkan-loader-1.3.261.1_2                  Vulkan Installable Client Driver (ICD) loader
-ii wayland-1.22.0_1                           Core Wayland window system code and protocol
+ii wayland-1.23.0_1                           Core Wayland window system code and protocol
 ii webkit2gtk-2.44.2_1                        GTK+3 port of the WebKit browser engine
 ii webrtc-audio-processing-1.3_1              AudioProcessing library based on Google's implementation of WebRTC
 ii which-2.21_4                               Displays where a particular program in your path is located
