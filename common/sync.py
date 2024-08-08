@@ -15,9 +15,9 @@ def sync(stuff: list[str]):
             if os.path.isdir(path):
                 os.makedirs(system_path, exist_ok=True)
             else:
-                print(f"Copying {path} to {system_path}")
+                print(f":: Copying {path} to {system_path}")
                 if os.path.exists(system_path) and not overwrite:
-                    print(f"Path {system_path} already exists. Do you want to overwrite it with {path}? y/n/a")
+                    print(f":: Path {system_path} already exists. Do you want to overwrite it with {path}? y/n/a")
 
                     ask = input()
                     if ask not in ("y", "a"):
