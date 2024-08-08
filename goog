@@ -9,6 +9,7 @@ from common.util import expand
 
 stuff: list[str] = [
     *expand("~/.config/{kitty,nvim,openbox,pipewire,tint2,zed}/**"),
+    "~/.config/starship.toml",
     "~/.themes/**",
     *expand("~/.local/bin/{yarn}"),
     "~/.bashrc",

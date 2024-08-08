@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ $1 == "build" ]]; then
+  bun run $@
+  exit
+fi
+
+bun $@
