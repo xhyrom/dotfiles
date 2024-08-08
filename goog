@@ -5,12 +5,15 @@ import sys
 
 from common.dump import dump
 from common.sync import sync
+from common.util import expand
 
-stuff = {
-    "~/.config/{kitty,nvim,openbox,pipewire,tint2,zed}",
-    "~/.themes",
-    "~/.local/bin/{yarn}"
-}
+stuff: list[str] = [
+    *expand("~/.config/{kitty,nvim,openbox,pipewire,tint2,zed}/**"),
+    "~/.themes/**",
+    *expand("~/.local/bin/{yarn}"),
+    "~/.bashrc",
+    "~/.xbindkeysrc"
+]
 
 options, _ = getopt(sys.argv[1:], "ds", ["dump", "sync"])
 
