@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+
+from getopt import getopt
+import sys
+
+from common.dump import dump
+from common.sync import sync
+from common.util import expand
+
+stuff: list[str] = [
+    *expand("~/.config/{kitty,nvim,openbox,pipewire,tint2,zed}/**"),
+    "~/.config/starship.toml",
+    "~/.themes/**",
+    *expand("~/.local/bin/{yarn}"),
+    "~/.bashrc",
+    "~/.xbindkeysrc"
+]
+
+options, _ = getopt(sys.argv[1:], "ds", ["dump", "sync"])
+
+for option, _ in options:
+    if option in ("-d", "--dump"):
+        dump(stuff)
+        break
+
+    if option in ("-s", "--sync"):
+        sync(stuff)
+        break
+
+print("Usage: ./goog [-d | --dump] [-s | --sync]\n")
+print("A simple tool for dumping dotfiles and syncing them")
+exit(1)

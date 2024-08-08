@@ -1,0 +1,56 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "theme": "One Dark",
+  "ui_font_size": 15,
+  "buffer_font_size": 14,
+  // Mine
+  "format_on_save": "on",
+  "terminal": {
+    "font_family": "DejaVuSansM Nerd Font",
+    "line_height": "standard",
+    "font_size": 15
+  },
+  "project_panel": {
+    "default_width": 320
+  },
+  // ruby
+  "lsp": {
+    "solargraph": {
+      "initialization_options": {
+        "diagnostics": true,
+        "formatting": false
+      }
+    }
+  }
+  // The following settings have been changed from the upstream defaults to
+  // improve security and privacy. Here are the upstream defaults, you can
+  // uncomment them if you like.
+  //
+  // "features": {
+  //   // Enable copilot (provided by an online service).
+  //   "copilot": true,
+  //   "inline_completion_provider": "copilot"
+  // },
+  // "assistant": {
+  //   "version": "1",
+  //   // Enable the assistant (provided by an online service).
+  //   "enabled": true
+  // },
+  // "telemetry": {
+  //   // Send debug info like crash reports to Zed Industries.
+  //   "diagnostics": true,
+  //   // Send anonymized usage data like what languages you're using Zed with
+  //   // to Zed Industries.
+  //   "metrics": true
+  // },
+  // "journal": {
+  //   "hour_format": "hour12"
+  // }
+}
