@@ -24,8 +24,9 @@ return require("packer").startup(function(use)
   use "theprimeagen/harpoon"
   use "mbbill/undotree"
   use "tpope/vim-fugitive"
-  use "andweeb/presence.nvim"
+  use "jiriks74/presence.nvim"
   use "wakatime/vim-wakatime"
+  use "github/copilot.vim"
 
   use {
     'nvim-lualine/lualine.nvim',

@@ -1,6 +1,6 @@
 tint2 &
 xcompmgr &
-nitrogen --restore
+xwallpaper --zoom ~/Pictures/Th0q7eQ.jpg
 xrandr --output eDP-1 --auto --output HDMI-1 --mode 1920x1080 --rate 144 --primary --left-of eDP-1
 xbindkeys
 xinput --set-prop "pointer:Razer Razer DeathAdder Essential" "libinput Accel Speed" -0.85

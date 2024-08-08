@@ -12,8 +12,11 @@
       </startupnotify>
     </action>
   </item>
-  <item label="intellij">
+  <item label="idea">
     <action name="Execute"><command>idea</command></action>
+  </item>
+  <item label="zed">
+    <action name="Execute"><command>zed</command></action>
   </item>
 </menu>
 
