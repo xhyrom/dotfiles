@@ -8,8 +8,7 @@ from common.sync import sync
 from common.util import expand
 
 stuff: list[str] = [
-    *expand("~/.config/{kitty,nvim,pipewire,sway,swaylock,zed}/**"),
-    "~/.config/starship.toml",
+    *expand("~/.config/{fish,kitty,nvim,pipewire,sway,swaylock,zed}/**"),
     "~/.icons/**",
     *expand("~/.local/bin/{yarn}"),
     "~/.bashrc",

@@ -10,10 +10,6 @@ alias s="kitten ssh"
 
 PS1='[\u@\h \W]\$ '
 
-eval "$(starship init bash)"
-source ~/.local/share/blesh/ble.sh
-complete -cf doas # doas completions
-
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH:~/.local/bin:~/go/bin:~/.wakatime
