@@ -1,0 +1,54 @@
+include ~/.config/sway/*.swayconf
+
+# background
+output * bg ~/Pictures/Th0q7eQ.jpg fill
+
+# effects
+default_border normal 5
+
+blur enable
+shadows enable
+corner_radius 10
+gaps inner 10
+
+layer_effects "panel" {
+    blur enable
+    shadows enable
+    corner_radius 10
+}
+
+# colors
+client.focused #282828 #282828 #ffffff #282828
+client.focused_inactive #181818 #181818 #ffffff #181818
+client.unfocused #181818 #181818 #ffffff #181818
+client.urgent #fe4f58 #fe4f58 #181818 #fe4f58
+
+# window
+font pango:FiraCode Nerd Font Mono 12
+for_window [title="."] title_format "<b>%title</b>"
+
+# input
+input * {
+    xkb_layout sk
+    xkb_numlock enabled
+}
+
+# bar
+bar {
+    font pango:FiraCode Nerd Font Mono 12
+    position top
+    gaps 10px
+    wrap_scroll yes
+
+    status_command while ~/.config/sway/status.sh; do sleep 1; done
+
+    colors {
+        background #282828
+        statusline #ffffff
+        focused_workspace #181818 #181818 #ffffff
+        inactive_workspace #282828 #282828 #ffffff
+        urgent_workspace #fe4f58 #fe4f58 #181818
+    }
+}
+
+include /etc/sway/config.d/*

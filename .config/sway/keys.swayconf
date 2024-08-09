@@ -1,0 +1,81 @@
+set $mod Mod1
+set $menu bemenu-run
+
+# window moving
+floating_modifier $mod normal
+
+# menu
+bindsym $mod+p exec $menu
+
+# volume settings
+bindsym XF86AudioRaiseVolume exec \
+                pactl set-sink-volume @DEFAULT_SINK@ +1000
+bindsym XF86AudioLowerVolume exec \
+                pactl set-sink-volume @DEFAULT_SINK@ -1000
+bindsym XF86AudioMute exec \
+                pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec \
+                pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# kill, reload
+bindsym {
+    $mod+Shift+c kill
+    $mod+Shift+r reload
+    $mod+Shift+e exec \
+        swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+}
+
+# focus
+bindsym {
+    $mod+Left focus left
+    $mod+Down focus down
+    $mod+Up focus up
+    $mod+Right focus right
+}
+
+# move
+bindsym {
+    $mod+Shift+Left move left
+    $mod+Shift+Down move down
+    $mod+Shift+Up move up
+    $mod+Shift+Right move right
+}
+
+# workspace (by codes due to SK layout)
+bindcode {
+    $mod+10 workspace number 1
+    $mod+11 workspace number 2
+    $mod+12 workspace number 3
+    $mod+13 workspace number 4
+    $mod+14 workspace number 5
+    $mod+15 workspace number 6
+    $mod+16 workspace number 7
+
+    $mod+Shift+10 move container to workspace number 1
+    $mod+Shift+11 move container to workspace number 2
+    $mod+Shift+12 move container to workspace number 3
+    $mod+Shift+13 move container to workspace number 4
+    $mod+Shift+14 move container to workspace number 5
+    $mod+Shift+15 move container to workspace number 6
+    $mod+Shift+16 move container to workspace number 7
+}
+
+# split
+bindsym $mod+b splith
+bindsym $mod+v splitv
+
+# layout
+bindsym {
+    $mod+s layout stacking
+    $mod+w layout tabbed
+    $mod+e layout toggle split
+}
+
+# other
+bindsym $mod+f fullscreen
+
+bindsym $mod+Shift+space floating toggle
+
+bindsym $mod+space focus mode_toggle
+
+bindsym $mod+a focus parent

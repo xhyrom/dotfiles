@@ -8,12 +8,12 @@ from common.sync import sync
 from common.util import expand
 
 stuff: list[str] = [
-    *expand("~/.config/{kitty,nvim,openbox,pipewire,tint2,zed}/**"),
+    *expand("~/.config/{kitty,nvim,pipewire,sway,swaylock,zed}/**"),
     "~/.config/starship.toml",
-    "~/.themes/**",
+    "~/.icons/**",
     *expand("~/.local/bin/{yarn}"),
     "~/.bashrc",
-    "~/.xbindkeysrc"
+    "~/.profile",
 ]
 
 options, _ = getopt(sys.argv[1:], "ds", ["dump", "sync"])

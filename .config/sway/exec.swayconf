@@ -1,0 +1,18 @@
+# gtk themes
+exec_always {
+    gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
+    gsettings set org.gnome.desktop.interface cursor-theme "Bibata-Modern-Classic"
+}
+
+# audio
+exec pipewire
+
+# applets
+exec nm-applet
+exec blueman-applet
+
+# auto lock + auto sleep
+exec swayidle -w \
+         timeout 120 'swaylock -f' \
+         timeout 300 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+         before-sleep 'swaylock -f'
