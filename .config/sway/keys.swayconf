@@ -22,7 +22,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 # capture screen
-bindsym Mod4+Shift+s exec grim -g "$(slurp)" '/tmp/$(date +%F_%T)_${WIDTH}x${HEIGHT}.png' && wl-copy < '/tmp/$(date +%F_%T)_${WIDTH}x${HEIGHT}.png'
+bindsym Mod4+Shift+s exec sh -c 'filename="/tmp/$(date +%F_%T).png"; grim -g "$(slurp)" "$filename" && wl-copy < "$filename"'
 
 # kill, reload
 bindsym {

@@ -5,4 +5,4 @@ alias cat="bat"
 alias s="kitten ssh"
 
 
-fish_add_path -g ~/.bun/bin ~/.local/bin ~/go/bin ~/.wakatime ~/.rbenv/shims ~/.moon/bin ~/.cargo/bin
+fish_add_path -g ~/.bun/bin ~/.local/bin ~/go/bin ~/.wakatime ~/.rbenv/shims ~/.moon/bin ~/.cargo/bin ~/.fvm_flutter/bin
