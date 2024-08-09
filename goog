@@ -11,7 +11,6 @@ stuff: list[str] = [
     *expand("~/.config/{fish,kitty,nvim,pipewire,sway,swaylock,zed}/**"),
     "~/.icons/**",
     *expand("~/.local/bin/{yarn}"),
-    "~/.bashrc",
     "~/.profile",
 ]
 
