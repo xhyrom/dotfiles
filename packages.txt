@@ -124,6 +124,7 @@ ii gotop-4.2.0_3                              Terminal based graphical activity 
 ii graphene-1.10.8_1                          Thin layer of types for graphic libraries
 ii graphite-1.3.14_1                          Reimplementation of the SIL Graphite text processing engine
 ii grep-3.11_2                                GNU grep utility
+ii grim-1.4.1_1                               Grab images from a Wayland compositor
 ii grub-2.12_2                                GRand Unified Bootloader 2
 ii grub-x86_64-efi-2.12_2                     GRand Unified Bootloader 2 - x86_64 EFI support
 ii gsettings-desktop-schemas-46.0_1           Collection of GSettings schemas
@@ -593,12 +594,12 @@ ii runit-void-20231124_5                      Void Linux runit scripts
 ii rustup-1.27.1_1                            Rust toolchain installer
 ii sbc-2.0_1                                  Bluetooth Subband Codec (SBC) library
 ii scenefx-0.1_1                              Drop-in replacement for the wlroots scene API
-ii scrot-1.11.1_1                             Simple command-line screenshot utility for X
 ii sed-4.9_1                                  The GNU stream editor
 ii setxkbmap-1.3.4_1                          Set the keyboard map using the X Keyboard Extension
 ii shadow-4.8.1_3                             Shadow password file utilities
 ii shared-mime-info-2.4_2                     Core database of common types
 ii slang-2.3.2_2                              S-Lang programming library
+ii slurp-1.5.0_1                              Select a region in a Wayland compositor
 ii snappy-1.1.10_1                            Fast compressor/decompressor library
 ii soundtouch-2.3.2_1                         SoundTouch Audio Processing Library
 ii spandsp-0.0.6_4                            Library of many DSP functions for telephony
@@ -646,6 +647,7 @@ ii webrtc-audio-processing-1.3_1              AudioProcessing library based on G
 ii which-2.21_4                               Displays where a particular program in your path is located
 ii wifi-firmware-1.3_4                        WiFi firmware meta-package
 ii wireplumber-0.5.5_1                        Session and policy manager implementation for PipeWire
+ii wl-clipboard-2.2.1_1                       Wayland clipboard utilities
 ii wlr-randr-0.4.1_1                          Wayland clone of xrandr for wlroots compositors
 ii wlroots0.17-0.17.4_1                       Modular Wayland compositor library 0.17
 ii wpa_supplicant-2.10_5                      WPA/WPA2/IEEE 802.1X Supplicant
@@ -661,7 +663,6 @@ ii xcb-util-image-0.4.1_1                     Utility libraries for XCB - XImage
 ii xcb-util-keysyms-0.4.1_1                   Utility libraries for XCB - key constants and keycode conversion
 ii xcb-util-renderutil-0.3.10_1               Utility libraries for XCB - Render extension convenience functions
 ii xcb-util-wm-0.4.2_1                        Utility libraries for XC Binding - window-manager helpers for ICCCM
-ii xclip-0.13_2                               Command line interface to the X11 clipboard
 ii xdg-dbus-proxy-0.1.5_1                     Filtering proxy for D-Bus connections
 ii xdg-desktop-portal-1.18.4_1                Portal frontend service for Flatpak
 ii xdg-desktop-portal-gtk-1.15.1_1            Portal backend service for Flatpak using GTK+
