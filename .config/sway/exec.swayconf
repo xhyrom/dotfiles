@@ -1,8 +1,15 @@
+# vim:ft=swayconfig
+
 # gtk themes
 exec_always {
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
+    gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
     gsettings set org.gnome.desktop.interface cursor-theme "Bibata-Modern-Classic"
 }
+
+# daemons, dbus doesn't start them automatically lol
+exec /usr/libexec/xdg-desktop-portal-gtk
+exec /usr/libexec/xdg-desktop-portal-wlr
 
 # audio
 exec pipewire
@@ -14,5 +21,5 @@ exec blueman-applet
 # auto lock + auto sleep
 exec swayidle -w \
          timeout 120 'swaylock -f' \
-         timeout 300 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+         timeout 120 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
          before-sleep 'swaylock -f'

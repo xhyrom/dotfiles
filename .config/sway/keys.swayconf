@@ -1,3 +1,5 @@
+# vim:ft=swayconfig
+
 set $mod Mod1
 set $menu bemenu-run
 
