@@ -1,0 +1,70 @@
+// -*- mode: jsonc -*-
+{
+  "height": 24,
+  "spacing": 4,
+  "modules-left": ["sway/workspaces"],
+  "modules-center": ["sway/window"],
+  "modules-right": [
+    "mpris",
+    "wireplumber",
+    "backlight",
+    "clock",
+    "battery",
+    "tray",
+  ],
+  // Modules configuration
+  "sway/workspaces": {
+    "all-outputs": true,
+    "warp-on-scroll": false,
+    "enable-bar-scroll": true,
+    "disable-scroll-wraparound": true,
+  },
+  "sway/window": {
+    "format": "{title}",
+    "max-length": 40,
+    "all-outputs": true,
+  },
+  "mpris": {
+    "format": "  {status_icon} {dynamic}",
+    "interval": 1,
+    "dynamic-len": 40,
+    "status-icons": {
+      "playing": "▶",
+      "paused": "⏸",
+      "stopped": "",
+    },
+    "dynamic-order": ["title", "artist"],
+  },
+  "wireplumber": {
+    "scroll-step": 5,
+    "format": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": ["", "", ""],
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+  },
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}",
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15,
+    },
+    "format": "{icon} {capacity}%",
+    "format-full": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{icon} {time}",
+    "format-icons": ["", "", "", "", ""],
+  },
+  "tray": {
+    "icon-size": 14,
+    "spacing": 10,
+  },
+}

@@ -33,22 +33,6 @@ input * {
     xkb_numlock enabled
 }
 
-# bar
-bar {
-    font pango:FiraCode Nerd Font Mono 12
-    position top
-    gaps 10px
-    wrap_scroll yes
-
-    status_command while ~/.config/sway/status.sh; do sleep 1; done
-
-    colors {
-        background #282828
-        statusline #ffffff
-        focused_workspace #181818 #181818 #ffffff
-        inactive_workspace #282828 #282828 #ffffff
-        urgent_workspace #fe4f58 #fe4f58 #181818
-    }
-}
+# waybar, configuration in ~/.config/waybar
 
 include /etc/sway/config.d/*
