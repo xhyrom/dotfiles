@@ -1,5 +1,10 @@
 # vim:ft=swayconfig
 
+# monitor
+exec_always {
+  xrandr --output HDMI-A-1 --primary
+}
+
 # gtk themes
 exec_always {
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
