@@ -27,6 +27,29 @@
         "diagnostics": true,
         "formatting": false
       }
+    },
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          // Ruff server settings goes here
+          "lineLength": 80,
+          "lint": {
+            "extendSelect": ["I"]
+          }
+        }
+      }
+    }
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["pyright", "ruff"],
+      "formatter": {
+        "external": {
+          "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.6.3/ruff-x86_64-unknown-linux-gnu/ruff",
+          "arguments": ["format", "-"]
+        }
+      },
+      "format_on_save": "on"
     }
   },
   "formatter": {
