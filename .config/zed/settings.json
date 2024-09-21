@@ -51,11 +51,6 @@
       },
       "format_on_save": "on"
     }
-  },
-  "formatter": {
-    "code_actions": {
-      "source.fixAll.eslint": true
-    }
   }
   // The following settings have been changed from the upstream defaults to
   // improve security and privacy. Here are the upstream defaults, you can
