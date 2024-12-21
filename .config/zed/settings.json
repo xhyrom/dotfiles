@@ -7,7 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "One Dark",
+  "theme": "Catppuccin Espresso (Blur)",
   "ui_font_size": 15,
   "buffer_font_size": 14,
   // Mine
@@ -18,9 +18,14 @@
     "font_size": 15
   },
   "project_panel": {
-    "default_width": 320
+    "default_width": 320,
+    "dock": "right"
   },
-  // ruby
+  "scrollbar": {
+    "show": "never"
+  },
+  "auto_update": false,
+  // LSP
   "lsp": {
     "solargraph": {
       "initialization_options": {
@@ -42,15 +47,52 @@
   },
   "languages": {
     "Python": {
+      "show_inline_completions": true,
       "language_servers": ["pyright", "ruff"],
       "formatter": {
         "external": {
-          "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.6.3/ruff-x86_64-unknown-linux-gnu/ruff",
+          "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.8.4/ruff-x86_64-unknown-linux-gnu/ruff",
           "arguments": ["format", "-"]
         }
       },
       "format_on_save": "on"
+    },
+    "Astro": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on"
+    },
+    "TypeScript": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on"
+    },
+    "TSX": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on"
+    },
+    "JavaScript": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on"
     }
+  },
+  // Assistant
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
   }
   // The following settings have been changed from the upstream defaults to
   // improve security and privacy. Here are the upstream defaults, you can

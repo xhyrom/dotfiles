@@ -1,7 +1,7 @@
 # vim:ft=swayconfig
 
 set $mod Mod1
-set $menu bemenu-run
+set $menu bemenu-run 
 
 # window moving
 floating_modifier $mod normal
@@ -68,6 +68,8 @@ bindcode {
     $mod+Shift+15 move container to workspace number 6
     $mod+Shift+16 move container to workspace number 7
 }
+
+bindsym $mod+ctrl+shift+q [workspace=__focused__] kill
 
 # split
 bindsym $mod+b splith

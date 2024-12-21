@@ -1,0 +1,25 @@
+@media (max-width: 1100px)
+{
+    [class*="sidebar_"]
+    {
+        width: 200px;
+        .vc-typing-indicator, .vc-channelemojis-emoji, [class*="guildIconV2Container_"]
+        {
+            display: none;
+        }
+        [class*="containerDefault_"]
+        {
+            [role="img"]
+            {
+                display: none;
+            }
+        }
+    }
+    [class*="chat_"]
+    {
+        [class*="membersWrap_"]
+        {
+            display: none;
+        }
+    }
+}
