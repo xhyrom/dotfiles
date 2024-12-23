@@ -814,7 +814,7 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1734778446387
+        "settingsSyncVersion": 1734793013888
     },
     "macosTranslucency": false
 }
