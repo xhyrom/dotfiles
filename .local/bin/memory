@@ -1,0 +1,11 @@
+#!/bin/bash
+program=$1
+
+while true
+do
+    ps -eo size,pid,user,command --sort -size | \
+        awk '{ hr=$1/1024 ; printf("%13.2f Mb ",hr) } { for ( x=4 ; x<=NF ; x++ ) { printf("%s ",$x) } print "" }' |\
+        cut -d "" -f2 | cut -d "-" -f1 | grep "$program" | \
+        awk '{print $0; sum+=$1} END {print "Total: " sum " Mb"}'
+    sleep 0.3
+done

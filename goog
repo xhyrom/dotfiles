@@ -11,7 +11,7 @@ stuff: list[str] = [
     *expand("~/.config/{fish,kitty,nvim,pipewire,sway,swaylock,waybar,xdg-desktop-portal,zed}/**"),
     *expand("~/.config/vesktop/{settings,themes}/**"),
     "~/.icons/**",
-    *expand("~/.local/bin/{yarn}"),
+    *expand("~/.local/bin/{yarn,memory,biggest_files}"),
 ]
 
 options, _ = getopt(sys.argv[1:], "ds", ["dump", "sync"])

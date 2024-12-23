@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo -e "Size\tPath" && du -ah . 2>/dev/null | sort -rh | head -n 20
