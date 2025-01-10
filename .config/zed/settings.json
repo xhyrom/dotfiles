@@ -16,7 +16,13 @@
   "terminal": {
     "font_family": "DejaVuSansM Nerd Font",
     "line_height": "standard",
-    "font_size": 15
+    "font_size": 15,
+    "detect_venv": {
+      "on": {
+        "directories": [".venv", "venv"],
+        "activate_script": "fish"
+      }
+    }
   },
   "project_panel": {
     "default_width": 320,
@@ -26,6 +32,7 @@
     "show": "never"
   },
   "auto_update": false,
+
   // LSP
   "lsp": {
     "solargraph": {
@@ -44,6 +51,29 @@
           }
         }
       }
+    },
+    "discord_presence": {
+      "initialization_options": {
+        "application_id": "1263505205522337886",
+        "base_icons_url": "https://raw.githubusercontent.com/xhyrom/zed-discord-presence/main/assets/icons/",
+
+        "state": "Working on {filename}",
+        "details": "In {workspace}",
+        // URL for large image
+        "large_image": "{base_icons_url}/{language}.png",
+        "large_text": "{language:u}", // :u makes first letter upper-case
+        // URL for small image
+        "small_image": "{base_icons_url}/zed.png",
+        "small_text": "Zed",
+
+        // Rules - disable presence in some workspaces
+        "rules": {
+          "mode": "blacklist", // or whitelist
+          "paths": ["absolute path"]
+        },
+
+        "git_integration": true
+      }
     }
   },
   "languages": {
@@ -52,7 +82,7 @@
       "language_servers": ["pyright", "ruff"],
       "formatter": {
         "external": {
-          "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.8.4/ruff-x86_64-unknown-linux-gnu/ruff",
+          "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.9.0/ruff-x86_64-unknown-linux-gnu/ruff",
           "arguments": ["format", "-"]
         }
       },
@@ -90,8 +120,8 @@
   // Assistant
   "assistant": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
     },
     "version": "2"
   }
