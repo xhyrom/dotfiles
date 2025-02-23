@@ -11,6 +11,7 @@
   "ui_font_size": 15,
   "buffer_font_size": 14,
   "buffer_font_family": "Maple Mono",
+  "vim_mode": true,
   // Mine
   "format_on_save": "on",
   "terminal": {
@@ -80,12 +81,20 @@
     "Python": {
       "show_inline_completions": true,
       "language_servers": ["pyright", "ruff"],
-      "formatter": {
-        "external": {
-          "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.9.0/ruff-x86_64-unknown-linux-gnu/ruff",
-          "arguments": ["format", "-"]
+      "formatter": [
+        {
+          "external": {
+            "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.9.6/ruff-x86_64-unknown-linux-gnu/ruff",
+            "arguments": ["format", "-"]
+          }
+        },
+        {
+          "code_actions": {
+            "source.fixAll.ruff": true,
+            "source.organizeImports.ruff": true
+          }
         }
-      },
+      ],
       "format_on_save": "on"
     },
     "Astro": {

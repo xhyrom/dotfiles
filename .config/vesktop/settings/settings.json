@@ -168,9 +168,6 @@
         "GifPaste": {
             "enabled": false
         },
-        "HideAttachments": {
-            "enabled": false
-        },
         "iLoveSpam": {
             "enabled": true
         },
@@ -802,6 +799,15 @@
         },
         "DynamicImageModalAPI": {
             "enabled": true
+        },
+        "FullUserInChatbox": {
+            "enabled": false
+        },
+        "IrcColors": {
+            "enabled": false
+        },
+        "HideMedia": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -814,7 +820,7 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1736434425396
+        "settingsSyncVersion": 1739656855351
     },
     "macosTranslucency": false
 }
