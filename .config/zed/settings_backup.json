@@ -79,7 +79,7 @@
   },
   "languages": {
     "Python": {
-      "show_edit_predictions": true,
+      "show_inline_completions": true,
       "language_servers": ["pyright", "ruff"],
       "formatter": [
         {
@@ -105,7 +105,6 @@
       "format_on_save": "on"
     },
     "TypeScript": {
-      "show_edit_predictions": true,
       "formatter": "prettier",
       "code_actions_on_format": {
         "source.fixAll.eslint": true
@@ -131,14 +130,9 @@
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
+      "model": "claude-3-5-sonnet"
     },
-    "enabled": true,
     "version": "2"
-  },
-  "features": {
-    "copilot": true,
-    "edit_prediction_provider": "copilot"
   }
   // The following settings have been changed from the upstream defaults to
   // improve security and privacy. Here are the upstream defaults, you can

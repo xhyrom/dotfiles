@@ -34,6 +34,7 @@ for_window [title="."] title_format "<b>%title</b>"
 input * {
     xkb_layout sk
     xkb_numlock enabled
+    xkb_options "compose:ralt"
 }
 
 # waybar, configuration in ~/.config/waybar

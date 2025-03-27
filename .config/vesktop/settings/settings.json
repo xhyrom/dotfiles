@@ -5,8 +5,7 @@
     "useQuickCss": true,
     "themeLinks": [],
     "enabledThemes": [
-        "hyme.css",
-        "system24.theme.css"
+        "hyme.css"
     ],
     "enableReactDevtools": true,
     "frameless": false,
@@ -820,7 +819,8 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1739656855351
+        "settingsSyncVersion": 1743001271259
     },
-    "macosTranslucency": false
+    "macosTranslucency": false,
+    "eagerPatches": false
 }
