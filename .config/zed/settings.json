@@ -61,11 +61,14 @@
         "state": "Working on {filename}",
         "details": "In {workspace}",
         // URL for large image
-        "large_image": "{base_icons_url}/{language}.png",
         "large_text": "{language:u}", // :u makes first letter upper-case
         // URL for small image
         "small_image": "{base_icons_url}/zed.png",
         "small_text": "Zed",
+
+        "idle": {
+          "timeout": 60 // seconds
+        },
 
         // Rules - disable presence in some workspaces
         "rules": {
@@ -84,7 +87,7 @@
       "formatter": [
         {
           "external": {
-            "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.9.8/ruff-x86_64-unknown-linux-gnu/ruff",
+            "command": "/home/hyro/.local/share/zed/extensions/work/ruff/ruff-0.11.13/ruff-x86_64-unknown-linux-gnu/ruff",
             "arguments": ["format", "-"]
           }
         },
@@ -128,10 +131,10 @@
     }
   },
   // Assistant
-  "assistant": {
+  "agent": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
     },
     "enabled": true,
     "version": "2"

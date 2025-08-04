@@ -115,9 +115,6 @@
         "UrbanDictionary": {
             "enabled": false
         },
-        "EmoteCloner": {
-            "enabled": true
-        },
         "Experiments": {
             "enabled": true,
             "enableIsStaff": false,
@@ -784,7 +781,8 @@
             "enabled": false
         },
         "AccountPanelServerProfile": {
-            "enabled": false
+            "enabled": false,
+            "prioritizeServerProfile": false
         },
         "FullSearchContext": {
             "enabled": true
@@ -807,6 +805,12 @@
         },
         "HideMedia": {
             "enabled": false
+        },
+        "DisableDeepLinks": {
+            "enabled": true
+        },
+        "ExpressionCloner": {
+            "enabled": true
         }
     },
     "notifications": {
@@ -819,7 +823,7 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1743001271259
+        "settingsSyncVersion": 1753994777762
     },
     "macosTranslucency": false,
     "eagerPatches": false

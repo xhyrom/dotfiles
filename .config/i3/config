@@ -1,0 +1,149 @@
+# i3 config file (v4)
+
+set $mod Mod1
+set $menu dmenu_run
+
+# Font
+font pango:FiraCode Nerd Font Mono 12
+
+# Window appearance
+for_window [title="."] title_format "%title"
+
+default_border pixel 2
+gaps inner 10
+gaps outer 0
+
+# Colors
+client.focused #343746 #343746 #F8F8F2 #343746 #343746
+client.focused_inactive #343746 #343746 #F8F8F2 #21222C #21222C
+client.unfocused #343746 #343746 #F8F8F2 #21222C #21222C
+
+# Floating modifier
+floating_modifier $mod
+
+# Monitor setup
+exec_always --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 144 --pos 0x0 --primary
+exec_always --no-startup-id xrandr --output eDP-1 --mode 1920x1080 --rate 120 --pos 1920x0
+
+# Startup applications
+exec_always --no-startup-id pkill polybar -9
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Background (using feh for X11)
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Th0q7eQ.jpg
+
+# Picom
+exec_always --no-startup-id picom &
+
+# Dunst
+exec_always --no-startup-id dunst &
+
+# GTK themes
+exec_always --no-startup-id gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
+exec_always --no-startup-id gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+exec_always --no-startup-id gsettings set org.gnome.desktop.interface cursor-theme "Bibata-Modern-Classic"
+
+# Audio
+exec --no-startup-id pipewire
+
+# Applets
+exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet
+
+# Auto lock (using i3lock instead of swaylock)
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# Window assignments
+assign [title="Discord"] 1
+assign [title="vesktop"] 1
+assign [title="Google Chrome"] 2
+
+# Key bindings
+
+# Volume settings
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +1000
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -1000
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# Brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+
+# Rofi
+bindsym $mod+p exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
+bindsym $mod+Shift+p exec "rofi -show run -no-default-config -config ~/.config/rofi/main.rasi"
+
+# Take a screenshot
+bindsym Mod4+Shift+s exec --no-startup-id $HOME/.local/bin/screenshot
+
+# Kill, reload, exit
+bindsym $mod+Shift+c kill
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exec --no-startup-id i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'
+
+# Focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Workspace switching (using bindcode for Slovak layout)
+bindcode $mod+10 workspace number 1
+bindcode $mod+11 workspace number 2
+bindcode $mod+12 workspace number 3
+bindcode $mod+13 workspace number 4
+bindcode $mod+14 workspace number 5
+bindcode $mod+15 workspace number 6
+bindcode $mod+16 workspace number 7
+
+bindcode $mod+Shift+10 move container to workspace number 1
+bindcode $mod+Shift+11 move container to workspace number 2
+bindcode $mod+Shift+12 move container to workspace number 3
+bindcode $mod+Shift+13 move container to workspace number 4
+bindcode $mod+Shift+14 move container to workspace number 5
+bindcode $mod+Shift+15 move container to workspace number 6
+bindcode $mod+Shift+16 move container to workspace number 7
+
+# Kill all windows in focused workspace
+bindsym $mod+ctrl+shift+q [workspace=__focused__] kill
+
+# Split
+bindsym $mod+b split h
+bindsym $mod+v split v
+
+# Layout
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Other
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+a focus parent
+
+# Resize mode
+mode "resize" {
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+bar {
+        mode invisible
+        tray_output none
+}
