@@ -76,6 +76,23 @@
           "paths": ["absolute path"]
         },
 
+        "languages": {
+          "rust": {
+            "state": "Hacking on {filename}",
+            "details": "Rustacean at work",
+            "large_image": "{base_icons_url}/rust.png",
+            "large_text": "RUST !!!!",
+            "small_image": "{base_icons_url}/zed.png",
+            "small_text": "Zed"
+          },
+          "python": {
+            // haha i'm cool
+            "state": "Working",
+            "large_image": "{base_icons_url}/c.png",
+            "large_text": "C"
+          }
+        },
+
         "git_integration": true
       }
     }
@@ -133,8 +150,8 @@
   // Assistant
   "agent": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "provider": "copilot_chat",
+      "model": "claude-3.7-sonnet"
     },
     "enabled": true,
     "version": "2"
