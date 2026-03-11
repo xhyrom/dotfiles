@@ -1,6 +1,0 @@
-# vim:ft=swayconfig
-
-assign [title="Discord"] 1
-assign [title="vesktop"] 1
-
-assign [title="Google Chrome"] 2

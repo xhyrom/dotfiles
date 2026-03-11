@@ -1,4 +1,4 @@
-# <img src="https://voidlinux.org/assets/img/void_bg.png" width="24" /> Void Linux Configuration
+# <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Finder_icon_macOS_Yosemite.png" width="24" /> MacOS Configuration
 
 My configuration files, themes and other stuff I daily use on my machine.
 
